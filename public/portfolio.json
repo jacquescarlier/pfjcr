@@ -31,13 +31,13 @@
 		"id": "c67ab899",
 		"title": "Kasa",
 		"alt": "Image du site de location immobilière Kasa",
-		"cover": "./src/pictures/kasa/kasacover.webp",
+		"cover": "./kasa/kasacover.webp",
 		"pictures": [
-			"../src/pictures/kasa/kasa1.webp",
-			"../src/pictures/kasa/kasaapropos.webp",
-			"../src/pictures/kasa/kasaapropos2.webp",
-			"../src/pictures/kasa/kasadetails1.webp",
-			"../src/pictures/kasa/kasadetails2.webp"
+			"../kasa/kasa1.webp",
+			"../kasa/kasaapropos.webp",
+			"../kasa/kasaapropos2.webp",
+			"../kasa/kasadetails1.webp",
+			"../kasa/kasadetails2.webp"
 		],
 		"description": "Créer une application web de location immobilière avec React.",
 		"host": {
