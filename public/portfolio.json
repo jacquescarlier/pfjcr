@@ -5,12 +5,12 @@
 		"cover": "./sophie-bluel/sophiecover.webp",
 		"alt": "image du site du portfolio de Sophie Bluel",
 		"pictures": [
-			"../src/pictures/sophie-bluel/sophie11.webp",
-			"../src/pictures/sophie-bluel/sophie-admin1.webp",
-			"../src/pictures/sophie-bluel/sophie-login1.webp",
-			"../src/pictures/sophie-bluel/sophie-modale1.webp",
-			"../src/pictures/sophie-bluel/sophie-addphoto11.webp",
-			"../src/pictures/sophie-bluel/sophie-addphoto21.webp"
+			"./sophie-bluel/sophie11.webp",
+			"./sophie-bluel/sophie-admin1.webp",
+			"./sophie-bluel/sophie-login1.webp",
+			"./sophie-bluel/sophie-modale1.webp",
+			"./sophie-bluel/sophie-addphoto11.webp",
+			"./sophie-bluel/sophie-addphoto21.webp"
 		],
 		"description": "Concevoir un site portfolio d'une architecte d'intérieur en javascript.",
 		"host": {
