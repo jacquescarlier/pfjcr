@@ -1,0 +1,84 @@
+.image-banner {
+  padding: 0;
+  position: relative;
+  margin-bottom: 38px;
+  border: solid $font-color 1px;
+  border-radius: 1.2em;
+
+  @include phone {
+    border: none;
+    height: 3em;
+  }
+  h1 span {
+    color: $font-color;
+    font-size: 2em;
+    font-weight: 500;
+  }
+  .banner-text {
+    width: 100%;
+    position: absolute;
+    bottom: 50%;
+    transform: translatey(50%);
+    margin: 0;
+    @include flex-row;
+    @include flex-justify-items-center;
+    gap: 5px;
+    @include fadein;
+
+    @include tab {
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      font-size: 20px;
+      text-align: left;
+      padding: 16px;
+      flex-flow: column nowrap;
+      align-items: flex-start;
+    }
+    span {
+      font-size: 3.6em;
+
+      @include desktop-large {
+        font-size: 3em;
+      }
+      @include desktop {
+        font-size: 2.2em;
+      }
+      @include tab {
+        font-size: 1.8em;
+      }
+      @include phone {
+        font-size: 1.2em;
+      }
+    }
+  }
+}
+
+.banner-home img {
+  height: 223px;
+  width: 100%;
+  border-radius: 1.2em;
+  object-fit: cover;
+  filter: brightness(0.6);
+
+  @include tab {
+    height: 176px;
+  }
+
+  @include phone {
+    display: none;
+  }
+}
+.banner-about {
+  img {
+    height: 223px;
+    width: 100%;
+    border-radius: 25px;
+    object-fit: cover;
+    filter: brightness(0.6);
+
+    @include phone {
+      display: none;
+    }
+  }
+}

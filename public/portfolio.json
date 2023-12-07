@@ -1,0 +1,114 @@
+[
+	{
+		"id": "c67ab8a7",
+		"title": "Portfolio Sophie Bluel",
+		"cover": "./src/pictures/sophie-bluel/sophiecover.webp",
+		"alt": "image du site du portfolio de Sophie Bluel",
+		"pictures": [
+			"../src/pictures/sophie-bluel/sophie11.webp",
+			"../src/pictures/sophie-bluel/sophie-admin1.webp",
+			"../src/pictures/sophie-bluel/sophie-login1.webp",
+			"../src/pictures/sophie-bluel/sophie-modale1.webp",
+			"../src/pictures/sophie-bluel/sophie-addphoto11.webp",
+			"../src/pictures/sophie-bluel/sophie-addphoto21.webp"
+		],
+		"description": "Concevoir un site portfolio d'une architecte d'intérieur en javascript.",
+		"host": {
+			"name": "Jacques Carlier"
+			
+		},
+		"project": "Projet 6",
+		"learning": [
+			"HTML",
+			"CSS",
+			"Javascript"
+		],
+		"tags": [
+			["1","Github", "https://github.com/jacquescarlier/Architecte_P6_JCR"]
+		]
+	},
+	{
+		"id": "c67ab899",
+		"title": "Kasa",
+		"alt": "Image du site de location immobilière Kasa",
+		"cover": "./src/pictures/kasa/kasacover.webp",
+		"pictures": [
+			"../src/pictures/kasa/kasa1.webp",
+			"../src/pictures/kasa/kasaapropos.webp",
+			"../src/pictures/kasa/kasaapropos2.webp",
+			"../src/pictures/kasa/kasadetails1.webp",
+			"../src/pictures/kasa/kasadetails2.webp"
+		],
+		"description": "Créer une application web de location immobilière avec React.",
+		"host": {
+			"name": "Jacques Carlier"
+			
+		},
+		"project": "Projet 8",
+		"learning": [
+			"SASS",
+			"React"
+		],
+		"tags": [
+			["1", "Github", "https://github.com/jacquescarlier/kasa_React_et_Vite"],
+			["2", "Site", "https://kasa-react-et-vite.vercel.app/"]
+		]
+	},
+	{
+		"id": "c67ab888",
+		"title": "724 events",
+		"cover": "./src/pictures/724events/724cover.webp",
+		"alt": "image du site d'une agence d'événementiel 724events",
+		"pictures": [
+			"../src/pictures/724events/77-1.webp",
+			"../src/pictures/724events/77-2.webp",
+			"../src/pictures/724events/77-3.webp",
+			"../src/pictures/724events/77-4.webp"
+		],
+		"description": "Debugger le site d'une agence d'événementiel.",
+		"host": {
+			"name": "Jacques Carlier"
+			
+		},
+		"project": "project 10",
+		"learning": [
+			"React",
+			"React developper tools",
+			"Jest",
+			"Cahier de recettes"
+		],
+		"tags": [
+			["1","Github", "https://github.com/jacquescarlier/debugger-une-application_p10"],
+			["2","Site", "https://debugp10.netlify.app/"]
+		]
+	},
+	{
+		"id": "c67ab4444",
+		"title": "Argent Bank",
+		"cover": "./src/pictures/argentbank/argentbankcover.webp",
+		"alt": "image du site de l'application bancaire ArgentBank",
+		"pictures": [
+			"../src/pictures/argentbank/argentbank1.webp",
+			"../src/pictures/argentbank/argentbank2.webp",
+			"../src/pictures/argentbank/argentbank3.webp",
+			"../src/pictures/argentbank/argentbank4.webp",
+			"../src/pictures/argentbank/argentbank6.webp",
+			"../src/pictures/argentbank/argentbank5.webp"
+		],
+		"description": "Implémentez le front-end d'une application bancaire avec React.",
+		"host": {
+			"name": "Jacques Carlier"
+			
+		},
+		"project": "project 11",
+		"learning": [
+			"React",
+			"Redux",
+			"Swagger"
+		],
+		"tags": [
+			["1", "Github", "https://github.com/jacquescarlier/ab11"]
+		]
+	}
+
+]
