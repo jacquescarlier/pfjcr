@@ -2,7 +2,7 @@
 	{
 		"id": "c67ab8a7",
 		"title": "Portfolio Sophie Bluel",
-		"cover": "./src/pictures/sophie-bluel/sophiecover.webp",
+		"cover": "./sophie-bluel/sophiecover.webp",
 		"alt": "image du site du portfolio de Sophie Bluel",
 		"pictures": [
 			"../src/pictures/sophie-bluel/sophie11.webp",
