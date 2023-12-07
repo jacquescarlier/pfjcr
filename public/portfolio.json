@@ -5,12 +5,12 @@
 		"cover": "./sophie-bluel/sophiecover.webp",
 		"alt": "image du site du portfolio de Sophie Bluel",
 		"pictures": [
-			"./sophie-bluel/sophie11.webp",
-			"./sophie-bluel/sophie-admin1.webp",
-			"./sophie-bluel/sophie-login1.webp",
-			"./sophie-bluel/sophie-modale1.webp",
-			"./sophie-bluel/sophie-addphoto11.webp",
-			"./sophie-bluel/sophie-addphoto21.webp"
+			"../sophie-bluel/sophie11.webp",
+			"../sophie-bluel/sophie-admin1.webp",
+			"../sophie-bluel/sophie-login1.webp",
+			"../sophie-bluel/sophie-modale1.webp",
+			"../sophie-bluel/sophie-addphoto11.webp",
+			"../sophie-bluel/sophie-addphoto21.webp"
 		],
 		"description": "Concevoir un site portfolio d'une architecte d'intérieur en javascript.",
 		"host": {
@@ -57,13 +57,13 @@
 	{
 		"id": "c67ab888",
 		"title": "724 events",
-		"cover": "./src/pictures/724events/724cover.webp",
+		"cover": "./724events/724cover.webp",
 		"alt": "image du site d'une agence d'événementiel 724events",
 		"pictures": [
-			"../src/pictures/724events/77-1.webp",
-			"../src/pictures/724events/77-2.webp",
-			"../src/pictures/724events/77-3.webp",
-			"../src/pictures/724events/77-4.webp"
+			"../724events/77-1.webp",
+			"../724events/77-2.webp",
+			"../724events/77-3.webp",
+			"../724events/77-4.webp"
 		],
 		"description": "Debugger le site d'une agence d'événementiel.",
 		"host": {
@@ -85,15 +85,15 @@
 	{
 		"id": "c67ab4444",
 		"title": "Argent Bank",
-		"cover": "./src/pictures/argentbank/argentbankcover.webp",
+		"cover": "./argentbank/argentbankcover.webp",
 		"alt": "image du site de l'application bancaire ArgentBank",
 		"pictures": [
-			"../src/pictures/argentbank/argentbank1.webp",
-			"../src/pictures/argentbank/argentbank2.webp",
-			"../src/pictures/argentbank/argentbank3.webp",
-			"../src/pictures/argentbank/argentbank4.webp",
-			"../src/pictures/argentbank/argentbank6.webp",
-			"../src/pictures/argentbank/argentbank5.webp"
+			"../argentbank/argentbank1.webp",
+			"../argentbank/argentbank2.webp",
+			"../argentbank/argentbank3.webp",
+			"../argentbank/argentbank4.webp",
+			"../argentbank/argentbank6.webp",
+			"../argentbank/argentbank5.webp"
 		],
 		"description": "Implémentez le front-end d'une application bancaire avec React.",
 		"host": {
