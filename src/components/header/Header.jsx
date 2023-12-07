@@ -1,5 +1,6 @@
 import Navigation from "../navigation/Navigation";
-import logoJcr from "../../pictures/logo/Logoprint.png";
+import logoJcr from "../../pictures/logo/logoprint.png";
+
 function Header() {
   return (
     <div className="header">
