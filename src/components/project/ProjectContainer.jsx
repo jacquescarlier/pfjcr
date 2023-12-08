@@ -12,12 +12,12 @@ export default function ProjectContainer() {
         <span>s</span>
       </h2>
       <div className="imgProject">
-        <img src="./langages/HTML51.webp" alt="logo html" />
-        <img src="./langages/css-31.webp" alt="logo html" />
-        <img src="./langages/Sass1.webp" alt="logo html" />
-        <img src="./langages/Javascript1.webp" alt="logo html" />
-        <img src="./langages/react1.webp" alt="logo html" />
-        <img src="./langages/redux1.webp" alt="logo html" />
+        <img src="./langages/HTML51.webp" alt="logo html" title="HTML" />
+        <img src="./langages/css-31.webp" alt="logo html" title="CSS" />
+        <img src="./langages/Sass1.webp" alt="logo html" title="SASS"/>
+        <img src="./langages/Javascript1.webp" alt="logo html" title="Javascript" />
+        <img src="./langages/react1.webp" alt="logo html" title="REACT" />
+        <img src="./langages/redux1.webp" alt="logo html" title="REDUX"/>
       </div>
     </div>
   )
