@@ -49,6 +49,7 @@
         background-color: $font2-color;
         border-radius: 10px;
         color: $bg-color;
+        cursor: pointer;
         font-size: 24px;
         letter-spacing: 0.35em;
         font-weight: 500;
@@ -67,16 +68,18 @@
           height: 30px;
           font-size: 18px;
         }
-
+       
         .arrow {
-          width: 20px;
-          height: 20px;
+          width: 25px;
+          height: 25px;
+          border-radius: 50%;
           @include rotation0To180Deg;
         }
 
         .rotated {
-          width: 20px;
-          height: 20px;
+          width: 25px;
+          height: 25px;
+          border-radius: 50%;
           @include rotation180To0Deg;
         }
       }

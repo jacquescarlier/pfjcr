@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Arrow from "../../pictures/logo/arrow_down.png";
+import Arrow from "../../pictures/logo/arrow_down.webp";
 
 const Accordion = ({ title, content }) => {
   const [isActive, setIsActive] = useState(false);
@@ -13,7 +13,7 @@ const Accordion = ({ title, content }) => {
     <div className="accordion-item">
       <div className="accordion-title" onClick={handleClick}>
         <div className="dropdownTitle">{title}</div>
-        <div>
+        <div className="arrow">
           {" "}
           <img
             src={Arrow}

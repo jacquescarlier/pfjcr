@@ -1,6 +1,7 @@
 .image-banner {
   padding: 0;
   position: relative;
+  margin-top: 1em;
   margin-bottom: 38px;
   border: solid $font-color 1px;
   border-radius: 1.2em;
@@ -69,7 +70,7 @@
     display: none;
   }
 }
-.banner-about {
+/*.banner-about {
   img {
     height: 223px;
     width: 100%;
@@ -81,4 +82,4 @@
       display: none;
     }
   }
-}
+}*/
