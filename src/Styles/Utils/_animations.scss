@@ -8,7 +8,7 @@
   transform: rotate(0deg);
 }
 @mixin translateTitle {
-  animation: translateTitle 1s linear;
+  animation: 0.5s translateTitle 1s linear forwards;
 }
 @keyframes translateTitle {
 0% {
@@ -19,7 +19,7 @@ transform: translateX(0%);
 }
 }
 @mixin inverseTranslateTitle {
-  animation:inverseTranslateTitle 1s linear forwards
+  animation: 0.5s inverseTranslateTitle 1s linear forwards
 }
 @keyframes inverseTranslateTitle {
   0% {
