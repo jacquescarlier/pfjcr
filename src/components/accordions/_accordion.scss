@@ -91,7 +91,8 @@
         display: block;
         overflow: hidden;
         z-index: -2;
-        background-color: $components-color;
+        background-color: $gradient;
+        border: solid $font-color 1px;
         border-radius: 0px 0px 10px 10px;
         color: $font-color;
         font-size: 24px;
@@ -127,7 +128,7 @@
             margin-bottom: -15px;
             font-size: 24px;
             font-weight: 500;
-            color: $font2-color;
+            color: $font-color;
             line-height: 0;
             text-align: left;
 

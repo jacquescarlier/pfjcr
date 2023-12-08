@@ -7,13 +7,15 @@ import picture from "../pictures/banner_codeur-unsplash.webp";
 import smallPicture from "../pictures/banner_codeur-mobile.webp"
 import ProjectContainer from "../components/project/ProjectContainer";
 import Modal from "../components/modal/Modal";
-
+import Accordion from "../components/accordions/Accordion";
+import { accordionData } from "../datas/accordionAboutData";
+import About from "../components/about/About";
 const Home = () => {
 
   return (
     <>
       <div className="container-general">
-        <Header />
+        
         <section className="image-banner banner-home">
           <Banner
             className="image-banner"
@@ -26,6 +28,7 @@ const Home = () => {
         </section>
         <ProjectContainer />
         <Card />
+        <About />
         <Modal />
       </div>
       <Footer />

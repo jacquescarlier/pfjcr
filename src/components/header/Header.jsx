@@ -1,5 +1,5 @@
-import Navigation from "../navigation/Navigation";
 import logoJcr from "../../pictures/logo/logoprint.png";
+import Navigation from "../navigation/Navigation";
 
 function Header() {
   return (

@@ -3,7 +3,7 @@
 }
 
 .cards {
-  background-color: #eeeeec;
+  background: $inverse-gradient;
   border-radius: 25px;
   box-sizing: border-box;
   padding: 50px 4.3%;
@@ -11,7 +11,7 @@
 
   @include tab {
     padding: 20px 2.5%;
-    background-color: $bg3-color;
+    background: $gradient;
   }
 
   @include phone {
