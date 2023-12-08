@@ -1,3 +1,7 @@
 section.aboutTitle {
     margin-bottom: 0.8em;
+
+    .bloc {
+    @include inverseTranslateTitle;
+    }
 }

@@ -1,5 +1,4 @@
 body {
-  /*background: $bg3-color;*/
   background: $gradient;
   display: flex;
   justify-content: center;
@@ -18,13 +17,11 @@ body {
 
   .container-general {
     width: 100%;
-    /*max-width: 1900px;*/
     margin: 0;
     padding: 0;
     padding: 5px 6.95% 0px 6.95%;
     display: grid;
     grid-template-rows: auto 1fr auto;
-    border: solid blue 1px;
 
     @include desktop-large {
       padding: 5px 6.5% 0px 6.5%;

@@ -2,7 +2,7 @@ export default function ProjectContainer() {
 
   return (
     <div className="projectTitle">
-      <h2>
+      <h2 className="bloc">
         <span>P</span>
         <span>r</span>
         <span>o</span>
