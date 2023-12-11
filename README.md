@@ -1,7 +1,7 @@
 # **Portfolio de Jacques Carlier**
-# ..intégrateur Web..
-# .._de Nogent-sur-Oise_..
-# .._HTML, CSS, SASS, JAVASCRIPT, REACT, REDUX, SEO_..
+# intégrateur Web
+# _de Nogent-sur-Oise_
+# _HTML, CSS, SASS, JAVASCRIPT, REACT, REDUX, SEO_
 ![portfolio de Jacques Carlier.](./src/pictures/sitePortfolio.webp)
 
 
