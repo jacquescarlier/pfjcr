@@ -4,20 +4,20 @@
 
 .carousel {
   position: relative;
-  margin: 50px 0px 30px 0px;
-  
+  margin: 0px 0px 30px 0px;
+  /*
   &::before {
     content: "";
-    /*background: linear-gradient(
+    background: linear-gradient(
       180deg,
       rgba(255, 255, 255, 0) 0%,
       rgba(0, 0, 0, 0.5) 100%
-    );*/
+    );
     position: absolute;
     width: 100%;
     height: 99%;
     border-radius: 20px;
-  }
+  }*/
 }
 
 .carouselPicture {
@@ -62,7 +62,7 @@
 }
 
 .carouselArrowRight {
-  right: 20px;
+  right: 1%;
   background-color: $bg2-color;
   border-radius: 50%;
   padding: 14px 4px 1px 8px;
@@ -76,7 +76,7 @@
 }
 
 .carouselArrowLeft {
-  left: 20px;
+  left: 1%;
   background-color: $bg2-color;
   border-radius: 50%;
   padding: 14px 8px 1px 4px;
