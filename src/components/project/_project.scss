@@ -5,11 +5,15 @@
   width: 100%;
   box-sizing: border-box;
   position: relative;
+
   h2 {
     width: 100%;
   }
+
   .bloc {
+    @include fadein;
     @include translateTitle;
+    @include letters;
   }
   .imgProject {
     display: flex;
@@ -25,17 +29,16 @@
     @include phone {
       width: 100%;
     }
-    
+
     img {
       height: 3em;
       width: 3em;
       margin: 0.5em;
-      
+
       @include phone {
         height: 1.5em;
         width: 1.5em;
       }
-    
       &:hover {
         @include shake;
       }

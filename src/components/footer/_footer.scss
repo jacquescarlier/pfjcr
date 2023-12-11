@@ -18,19 +18,25 @@ footer {
       margin-bottom: 1em;
     }
   }
+  ul {
+    li{
+      span {
+        font-size: 2em;
+        font-weight: bolder;
+      }
   img {
     height: 50px;
     width: 50px;
   }
-
+}}
   p {
     font-size: 24px;
     text-align: center;
 
     @include phone {
-     ul {
+    /* ul {
        margin: 2em;
-      }
+      }*/
       width: 122px;
       font-size: 12px;
     }
