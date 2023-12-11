@@ -12,8 +12,8 @@ const PortfolioDetail = ({ portfolioData }) => {
         <p> {portfolioData.host.name} </p>
         
       </div>
-      <div  className="portfolioDetail" >
-        <div className='portfolioInformation'>
+      <div  className="portfolioDetail">
+        <div className='portfolioInformation' key={portfolioData.tags} >
           {portfolioData.tags.map((tag, index) => (
             <Link to={tag[2]} target="_blank" rel="noopener"><p key={index}>{tag[1]}</p></Link>
           ))}

@@ -3,65 +3,65 @@
   position: relative;
   margin-top: 1em;
   margin-bottom: 38px;
-  
-.banner {
-  border: solid $font-color 1px;
-  border-radius: 1.2em;
 
-  @include phone {
-    height: 5em;
-    background-color:$font2-color;
+  .banner {
+    border: solid $font-color 1px;
     border-radius: 1.2em;
-    padding: 1em 0.5em;
-  }
-  h1 span {
-    color: $font-color;
-    font-size: 2em;
-    font-weight: 500;
-  }
-  .banner-text {
-    width: 100%;
-    position: absolute;
-    bottom: 50%;
-    transform: translatey(50%);
-    margin: 0;
-    @include flex-row;
-    @include flex-justify-items-center;
-    gap: 5px;
-    @include fadein;
 
-    @include tab {
-      padding: 0;
-      margin: 0;
+    @include phone {
+      height: 5em;
+      background-color: $font2-color;
+      border-radius: 1.2em;
+      padding: 1em 0.5em;
+    }
+    h1 span {
+      color: $font-color;
+      font-size: 2em;
+      font-weight: 500;
+    }
+    .banner-text {
       width: 100%;
-      font-size: 20px;
-      text-align: left;
-      padding: 16px;
-      flex-flow: column nowrap;
-      align-items: flex-start;
-    }
-    
-    span {
-      font-size: 3.6em;
+      position: absolute;
+      bottom: 50%;
+      transform: translatey(50%);
+      margin: 0;
+      @include flex-row;
+      @include flex-justify-items-center;
+      gap: 5px;
+      @include fadein;
 
-      @include desktop-large {
-        font-size: 3em;
-      }
-      @include desktop {
-        font-size: 2.2em;
-      }
       @include tab {
-        font-size: 1.8em;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        font-size: 20px;
+        text-align: left;
+        padding: 16px;
+        flex-flow: column nowrap;
+        align-items: flex-start;
       }
-      @include phone {
-        color: $bg-color;
-        font-size: 1em;
-        font-weight: 700;
-        letter-spacing: 1px;
+
+      span {
+        font-size: 3.6em;
+
+        @include desktop-large {
+          font-size: 3em;
+        }
+        @include desktop {
+          font-size: 2.2em;
+        }
+        @include tab {
+          font-size: 1.8em;
+        }
+        @include phone {
+          color: $bg-color;
+          font-size: 1em;
+          font-weight: 700;
+          letter-spacing: 1px;
+        }
       }
     }
   }
-}
 }
 .banner-home img {
   height: 223px;
@@ -73,11 +73,9 @@
   @include tab {
     height: 176px;
   }
-
   @include phone {
     display: none;
     background-color: red;
     padding: 1em 0.5em;
   }
 }
-

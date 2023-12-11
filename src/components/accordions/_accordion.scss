@@ -11,13 +11,11 @@
   @include desktop {
     gap: 40px;
   }
-
   @include tab {
     flex-wrap: wrap;
     margin: 0px 0px 27px 0px;
     gap: 30px;
   }
-
   @include phone {
     margin: 0px 0px 19px 0px;
     gap: 20px;
@@ -27,12 +25,10 @@
     width: 80%;
     @include flex-column-justify-center;
     gap: 30px;
-
     @include tab {
       width: 100%;
       gap: 25px;
     }
-
     @include phone {
       gap: 20px;
     }
@@ -58,17 +54,15 @@
         @include desktop {
           font-size: 22px;
         }
-
         @include tab {
           font-size: 20px;
           font-weight: bolder;
         }
-
         @include phone {
           height: 30px;
           font-size: 18px;
         }
-       
+
         .arrow {
           width: 25px;
           height: 25px;
@@ -109,12 +103,10 @@
         @include desktop {
           font-size: 22px;
         }
-
         @include tab {
           font-size: 18px;
           padding: 30px 20px;
         }
-
         @include phone {
           font-size: 16px;
         }
@@ -139,11 +131,9 @@
               font-size: 18px;
               margin-bottom: -20px;
             }
-
             @include tab {
               font-size: 16px;
             }
-
             @include phone {
               font-size: 13px;
               margin-bottom: 0px;

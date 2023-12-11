@@ -22,7 +22,7 @@ body {
     padding: 5px 6.95% 0px 6.95%;
     display: grid;
     grid-template-rows: auto 1fr auto;
-
+    
     @include desktop-large {
       padding: 5px 6.5% 0px 6.5%;
     }
