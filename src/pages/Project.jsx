@@ -1,7 +1,6 @@
 import React from 'react';
-import Footer from "../components/footer/Footer";
 import Carousel from "../components/carousel/Carousel";
-import PortfolioDetail from "../components/portfolioDetail/PortfolioDetail";
+import PortfolioDetail from "../components/portfolioDetail/PortfolioDetail"
 import PortfolioDropdown from "../components/portfolioDropdown/PortfolioDropdown";
 import { useParams, Navigate } from "react-router-dom"
 import { useState, useEffect } from "react";

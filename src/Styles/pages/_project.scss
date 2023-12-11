@@ -2,7 +2,7 @@
   @include flex-row;
   justify-content: normal;
   justify-content: space-between;
- @include wrap;
+  @include wrap;
   width: 100%;
   color: $font-color;
   padding: 0px 0px 20px 0px;
@@ -76,27 +76,26 @@
   @include tab {
     height: 32px;
   }
-}
 
-.titleName p {
-  color: $font2-color;
-  font-size: 18px;
-  padding: 0;
-  margin-right: 10px;
-  text-align: right;
-  width: 93px;
+  p {
+    color: $font2-color;
+    font-size: 2em;
+    padding: 0;
+    margin-right: 10px;
+    text-align: right;
+    width: 93px;
 
-  @include tab {
-    width: 75px;
-    font-size: 16px;
-  }
-
-  @include phone {
-    width: 50px;
+    @include tab {
+      display: none;
+    }
+/*
+    @include phone {
+      display: none;
+       width: 50px;
     font-size: 12px;
+    }*/
   }
 }
-
 .portfolioDetail {
   @include flex-row;
   @include nowrap;
@@ -115,17 +114,22 @@
   @include wrap;
   align-items: center;
   gap: 15px;
+
+  a {
+    padding: 5px;
+    text-decoration: none;
+    p {
+      font-size: 2em;
+    }
+  }
 }
 
 .portfolioDetail p {
-  height: 25px;
+  /*height: 25px;*/
   color: $bg2-color;
   background-color: $font2-color;
-  padding: 3px 30px 2px 30px;
+  padding: 5px 30px 5px 30px;
   border-radius: 20px;
-  display: block;
-  font-size: 14px;
-  font-weight: bolder;
 
   @include tab {
     font-size: 12px;

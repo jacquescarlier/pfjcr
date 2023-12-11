@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import Header from "../header/Header";
-import Project from "../../pages/Project"
-
 import Footer from "../footer/Footer";
 
 
@@ -30,8 +28,9 @@ export default function Modal({portfolioData}) {
           <div onClick={toggleModal} className="overlay"></div>
           <div className="modal-content">
           
-                      <Project />                     
-                     
+                      <Header />
+
+                      <Footer />
             <button className="close-modal" onClick={toggleModal}>
              X
             </button>
