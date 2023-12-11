@@ -44,6 +44,7 @@ animate_text()
         <img src="./langages/Javascript1.webp" alt="logo html" title="Javascript" />
         <img src="./langages/react1.webp" alt="logo html" title="REACT" />
         <img src="./langages/redux1.webp" alt="logo html" title="REDUX"/>
+        <img src="./langages/seo.webp" alt="logo SEO" title="SEO" />
       </div>
     </div>
   )
