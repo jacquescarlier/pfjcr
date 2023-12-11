@@ -3,7 +3,7 @@
 # _de Nogent-sur-Oise_
 # _HTML, CSS, SASS, JAVASCRIPT, REACT, REDUX, SEO_
 ![portfolio de Jacques Carlier.](./src/pictures/sitePortfolio.webp)
-
+#_Résolution de 375 px à 1900px maxi_
 
 
 # React + Vite

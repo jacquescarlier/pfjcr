@@ -6,7 +6,7 @@
   h1 {
     font-size: 258px;
     font-weight: 700;
-    color: $primary-color;
+    color: $font-color;
     margin: 89px 0 139px 0;
 
     @include tab {
@@ -19,39 +19,19 @@
     }
   }
 
-  h2 {
-    color: $primary-color;
-    font-size: 36px;
+  p {
+    font-size: 2em;
     font-weight: 500;
     margin: 0 auto;
     margin-bottom: 139px;
     text-align: center;
+    color: $font2-color;
+    background-color: none;
 
     @include phone {
-      font-size: 18px;
+      font-size: 1.5em;
       margin-bottom: 113px;
-      width: 70%;
+      width: 100%;
     }
   }
-
-  .goHome {
-    color: $primary-color;
-    font-size: 18px;
-    margin-bottom: 101px;
-    text-decoration: underline #ff6060;
-
-    @include tab {
-      font-size: 16px;
-      margin-bottom: 75px;
-    }
-
-    @include phone {
-      font-size: 14px;
-    }
-  }
-}
-
-.footer {
-  position: fixed;
-  bottom: 0;
 }

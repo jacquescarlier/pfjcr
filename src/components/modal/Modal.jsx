@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import Header from "../header/Header";
-import Carousel from "../carousel/Carousel";
-import PortfolioDetail from "../portfolioDetail/PortfolioDetail";
-import PortfolioDropdown from "../portfolioDropdown/PortfolioDropdown";
+import Project from "../../pages/Project"
+
 import Footer from "../footer/Footer";
-/*import Carousel from "../carousel/Carousel";*/
+
 
 
 export default function Modal({portfolioData}) {
@@ -31,11 +30,8 @@ export default function Modal({portfolioData}) {
           <div onClick={toggleModal} className="overlay"></div>
           <div className="modal-content">
           
-                      <Header />
-                     <Footer />
-                    
-                   
-            
+                      <Project />                     
+                     
             <button className="close-modal" onClick={toggleModal}>
              X
             </button>

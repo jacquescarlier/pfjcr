@@ -8,12 +8,12 @@ export const accordionData = [
 {
     id: 2,
     title: "Niveau",
-    content: `J'ai suivi une formation d'intégrateur web de niveau 5 sur la plateforme OpenClassrooms. Et je continue mon apprentissage avec livres, tutoriels et sites web. J'ai un diplôme de niveau 4 en électricité et automatismes industriels.`
+    content: `J'ai suivi une formation d'intégrateur web de niveau 5 sur la plateforme OpenClassrooms. Et je continue encore mon apprentissage. J'ai un diplôme de niveau 4 en électricité et automatismes industriels.`
 },
 {
     id: 3,
     title: "Motivation",
-    content: `J'ai hâte de travailler dans ce domaine pour montrer chaque jour, mon envie, ma motivation, mes idées. L'autonomie et l'organisation pour gérer les différentes tâches du métier sont un challenge en continu.`
+    content: `J'ai hâte de travailler dans ce domaine pour montrer chaque jour, mon envie, ma motivation, mes idées.`
 }
 
 ];

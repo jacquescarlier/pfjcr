@@ -1,4 +1,4 @@
-import logoJcr from "../../pictures/logo/logoprint.png";
+import logoJcr from "../../pictures/logo/logoprint.webp";
 import Navigation from "../navigation/Navigation";
 
 function Header() {

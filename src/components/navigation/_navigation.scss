@@ -12,26 +12,17 @@ ul {
     font-weight: 500;
     line-height: 34px;
     text-align: right;
- /* }
- li {
-    color: $font-color;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 34px;
-    text-align: right;
-*/
     @include tab {
-      font-size: 16px;
+      font-size: 1em;
     }
 
     @include phone {
-      font-size: 12px;
+      font-size: 1em;
     }
   }
 
   a {
     text-decoration: none;
-    /*padding-right: 10px;*/
   }
 }
 
