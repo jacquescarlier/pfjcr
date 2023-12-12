@@ -7,8 +7,6 @@ const Accordion = ({ title, content }) => {
   const handleClick = () => {
      setIsActive(!isActive);
   };
-
-  // {isActive && <div className="accordion-content isActive">{content}</div>}
   return (
     <div className="accordion-item">
       <div className="accordion-title" onClick={handleClick}>

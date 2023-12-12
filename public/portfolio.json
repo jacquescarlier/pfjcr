@@ -19,6 +19,11 @@
 			"CSS",
 			"Javascript"
 		],
+		"logos": [
+			"../langages/HTML51.webp",
+			"../langages/css-31.webp",
+			"../langages/Javascript1.webp"
+		],
 		"tags": [
 			["https://github.com/jacquescarlier/Architecte_P6_JCR"]
 		]
@@ -37,6 +42,10 @@
 		],
 		"description": "Créer une application web de location immobilière avec React.",
 		"project": ["https://kasa-react-et-vite.vercel.app/"],
+		"logos": [
+			"../langages/Sass1.webp",
+			"../langages/react1.webp"
+		],
 		"learning": [
 			"SASS",
 			"React"
@@ -58,6 +67,10 @@
 		],
 		"description": "Debugger le site d'une agence d'événementiel.",
 		"project": ["https://debugp10.netlify.app/"],
+		"logos": [
+			"../langages/react1.webp",
+			"../langages/jest-logo.webp"
+		],
 		"learning": [
 			"React",
 			"React developper tools",
@@ -83,6 +96,11 @@
 		],
 		"description": "Implémentez le front-end d'une application bancaire avec React.",
 		"project": ["#"],
+		"logos": [
+			"../langages/css-31.webp",
+			"../langages/react1.webp",
+			"../langages/redux1.webp"
+		],
 		"learning": [
 			"React",
 			"Redux",

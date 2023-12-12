@@ -96,7 +96,7 @@
         font-size: 24px;
         font-weight: 700;
         line-height: 25px;
-        padding: 40px 20px;
+        padding: 30px 20px 20px 20px;
         position: relative;
         top: -10px;
         @include descending;
@@ -106,15 +106,16 @@
         }
         @include tab {
           font-size: 18px;
-          padding: 30px 20px;
         }
         @include phone {
           font-size: 16px;
+          padding-bottom: 5px;
         }
 
         ul {
           padding: 10px 0px 20px 0px;
-          @include flex-column;
+          @include flex-row;
+          justify-content: space-around;
 
           @include phone {
             padding: 0px 0px 10px 0px;

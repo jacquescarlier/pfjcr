@@ -4,7 +4,7 @@ import PortfolioDetail from "../components/portfolioDetail/PortfolioDetail"
 import PortfolioDropdown from "../components/portfolioDropdown/PortfolioDropdown";
 import { useParams, Navigate } from "react-router-dom"
 import { useState, useEffect } from "react";
-import Header from '../components/header/Header';
+import ProjectNavigation from '../components/projectNavigation/ProjectNavigation';
 const urlApi = "/portfolio.json"
 
 export default function Fetch() {
@@ -43,10 +43,10 @@ export default function Fetch() {
             {portfolioData && (
                 <div>
                     <div className="container-general">
-                        <Header />
+                        <ProjectNavigation />
                         <Carousel pictures={portfolioData.pictures} title={portfolioData.title} />
                         <PortfolioDetail portfolioData={portfolioData} />
-                        <PortfolioDropdown description={portfolioData.description} langages={portfolioData.learning} />
+                        <PortfolioDropdown description={portfolioData.description} langages={portfolioData.logos} />
                     </div>
                 </div>
             )}

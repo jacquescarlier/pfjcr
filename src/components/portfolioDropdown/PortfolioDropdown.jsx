@@ -12,7 +12,7 @@ const PortfolioDropdown = ({ description, langages }) => {
             </div>
             <div className="accordionBody">
                 <Accordion key={title} title={title[1]} content={<ul>{langages.map((langage) =>
-                    <li key={langage}>{langage}</li>)}
+                    <li key={langage}><img src={langage} alt={langage} /></li>)}
                 </ul>} />
             </div>
         </section>
