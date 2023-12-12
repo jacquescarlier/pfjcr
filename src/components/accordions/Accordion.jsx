@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Arrow from "../../pictures/logo/arrow-down.webp";
 
 const Accordion = ({ title, content }) => {
-  const [isActive, setIsActive] = useState(false);
+  const [isActive, setIsActive] = useState(true);
  
   const handleClick = () => {
      setIsActive(!isActive);

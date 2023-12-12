@@ -1,11 +1,11 @@
 .title {
   @include flex-row;
-  justify-content: normal;
   justify-content: space-between;
-  @include wrap;
+  @include nowrap;
   width: 100%;
   color: $font-color;
   padding: 0px 0px 20px 0px;
+  gap: 10px;
 
   @include tab {
     width: 100%;
@@ -13,7 +13,7 @@
 }
 
 .titleInfo {
-  width: 70%;
+  width: 100%;
   padding: 0 0 15px 0;
 
   @include tab {
@@ -33,16 +33,25 @@
     }
   }
 
-  p {
-    font-size: 18px;
-    font-weight: 500;
+  a {
+    text-decoration: none;
+    color: $bg-color;
+   }
+   span {
+   margin: 0px 10px 0px 0px;
+    background-color: $font2-color;
+    padding: 5px 55px;
+    border-radius: 20px;
+    font-size: 1.5em;
+    font-weight: bolder;
 
     @include tab {
-      font-size: 16px;
+      font-size: 18px;
+      padding: 4px 50px;
     }
-
     @include phone {
-      font-size: 14px;
+      font-size: 16px;
+      padding: 3px 25px;
     }
   }
 }
@@ -61,54 +70,6 @@
   }
 }
 
-.titleName {
-  @include flex-row;
-  justify-content: normal;
-  height: 64px;
-  align-items: center;
-
-  @include tab {
-    order: 4;
-    min-width: auto;
-    height: 48px;
-  }
-
-  @include tab {
-    height: 32px;
-  }
-
-  p {
-    color: $font2-color;
-    font-size: 2em;
-    padding: 0;
-    margin-right: 10px;
-    text-align: right;
-    width: 93px;
-
-    @include tab {
-      display: none;
-    }
-/*
-    @include phone {
-      display: none;
-       width: 50px;
-    font-size: 12px;
-    }*/
-  }
-}
-.portfolioDetail {
-  @include flex-row;
-  @include nowrap;
-  justify-content: normal;
-  justify-content: space-between;
-  width: 70%;
-
-  @include tab {
-    width: 100%;
-    padding: 20px 0;
-  }
-}
-
 .portfolioInformation {
   @include flex-row;
   @include wrap;
@@ -118,25 +79,8 @@
   a {
     padding: 5px;
     text-decoration: none;
-    p {
+    span {
       font-size: 2em;
     }
-  }
-}
-
-.portfolioDetail p {
-  /*height: 25px;*/
-  color: $bg2-color;
-  background-color: $font2-color;
-  padding: 5px 30px 5px 30px;
-  border-radius: 20px;
-
-  @include tab {
-    font-size: 12px;
-  }
-
-  @include phone {
-    font-size: 10px;
-    padding: 5px 10px;
   }
 }

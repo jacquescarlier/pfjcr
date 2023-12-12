@@ -39,4 +39,13 @@ footer {
       line-height: 2em;
     }
   }
+  .topLink {
+    text-decoration: none;
+    color: $bg-color;
+    padding: 5px 30px;
+    background-color: $font-color;
+    cursor: pointer;
+    border-radius: 1em;
+
+  }
 }

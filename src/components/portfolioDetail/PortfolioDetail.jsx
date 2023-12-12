@@ -2,25 +2,13 @@ import { Link } from 'react-router-dom'
 
 const PortfolioDetail = ({ portfolioData }) => {
 
-  console.log("tags", portfolioData.tags[0][1])
-  
   return (
     <section className="title" >
       <div className='titleInfo'>
         <h1> {portfolioData.title}</h1>
-        <p> {portfolioData.project}</p>
+        <span><a href={portfolioData.project} >Site</a> </span>
+        <span><a href={portfolioData.tags}>GitHub</a></span>
       </div>
-      <div className='titleName'>
-        <p> {portfolioData.host.name} </p>
-      </div>
-      <div className="portfolioDetail">
-        <div className='portfolioInformation'  >
-          {portfolioData.tags.map((tag, index) => (
-            <Link to={tag[2]} target="_blank" rel="noopener"><p key={index}>{tag[1]}</p></Link>
-          ))}
-        </div >
-      </div>
-
     </section>
   )
 }

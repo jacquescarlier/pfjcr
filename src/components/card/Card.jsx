@@ -45,7 +45,7 @@ function Card() {
   if (error) return "Error ! ";
 
   return (
-    <div className="cards">
+    <div className="cards" id="project">
       <div className="card-style">
         {portfolio.map((portfolioData) => (
           <Link

@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer>
+    <footer id="contact">
       <p className="contact">contact</p>
       <ul>
      
@@ -10,7 +10,7 @@ function Footer() {
         
 
         </ul>
-      <p>©2023 Jacques Carlier. All rights reserved</p>
+      <p className="topLink"><a href="#top">TOP</a></p>
     </footer>
   );
 }

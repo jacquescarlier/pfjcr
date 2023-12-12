@@ -13,18 +13,14 @@
 			"../sophie-bluel/sophie-addphoto21.webp"
 		],
 		"description": "Concevoir un site portfolio d'une architecte d'intérieur en javascript.",
-		"host": {
-			"name": "Jacques Carlier"
-			
-		},
-		"project": "Projet 6",
+		"Site": ["#"],
 		"learning": [
 			"HTML",
 			"CSS",
 			"Javascript"
 		],
 		"tags": [
-			["1","Github", "https://github.com/jacquescarlier/Architecte_P6_JCR"]
+			["https://github.com/jacquescarlier/Architecte_P6_JCR"]
 		]
 	},
 	{
@@ -40,18 +36,13 @@
 			"../kasa/kasadetails2.webp"
 		],
 		"description": "Créer une application web de location immobilière avec React.",
-		"host": {
-			"name": "Jacques Carlier"
-			
-		},
-		"project": "Projet 8",
+		"project": ["https://kasa-react-et-vite.vercel.app/"],
 		"learning": [
 			"SASS",
 			"React"
 		],
 		"tags": [
-			["1", "Github", "https://github.com/jacquescarlier/kasa_React_et_Vite"],
-			["2", "Site", "https://kasa-react-et-vite.vercel.app/"]
+			[ "https://github.com/jacquescarlier/kasa_React_et_Vite"]
 		]
 	},
 	{
@@ -66,11 +57,7 @@
 			"../724events/77-4.webp"
 		],
 		"description": "Debugger le site d'une agence d'événementiel.",
-		"host": {
-			"name": "Jacques Carlier"
-			
-		},
-		"project": "project 10",
+		"project": ["https://debugp10.netlify.app/"],
 		"learning": [
 			"React",
 			"React developper tools",
@@ -78,8 +65,7 @@
 			"Cahier de recettes"
 		],
 		"tags": [
-			["1","Github", "https://github.com/jacquescarlier/debugger-une-application_p10"],
-			["2","Site", "https://debugp10.netlify.app/"]
+			["https://github.com/jacquescarlier/debugger-une-application_p10"]
 		]
 	},
 	{
@@ -96,18 +82,14 @@
 			"../argentbank/argentbank5.webp"
 		],
 		"description": "Implémentez le front-end d'une application bancaire avec React.",
-		"host": {
-			"name": "Jacques Carlier"
-			
-		},
-		"project": "project 11",
+		"project": ["#"],
 		"learning": [
 			"React",
 			"Redux",
 			"Swagger"
 		],
 		"tags": [
-			["1", "Github", "https://github.com/jacquescarlier/ab11"]
+			["https://github.com/jacquescarlier/ab11"]
 		]
 	}
 
