@@ -12,10 +12,7 @@ ul {
     text-align: right;
     border-bottom: 5px solid $border-color;
     transition: all 0.2s;
-    &:hover {
-     /* color: $font-color;
-      background: $bg2-color;*/
-     /* box-shadow: -2px 1px 1px $font2-color;*/
+    &:focus {
      transform: translate(0px, 5px);
       border-bottom: 1px solid $border-color ;
       
