@@ -14,7 +14,6 @@ function Router() {
           <Route path="/project/:id" element={<Project />} />
           <Route path="/project/*" element={<Page404 />} />
           <Route path="*" element={<Page404 />} />
-          
         </Routes>
       </BrowserRouter>
     </>

@@ -21,7 +21,7 @@ const Home = () => {
             smallImage={smallPicture}
             alt="photo écran de code"
             title1="Welcome !"
-            title2="Hi, i'm Jacques, web developer."
+            title2="Hi, i'm Jacques, web integrator."
           />
         </section>
         <ProjectContainer />

@@ -6,12 +6,14 @@ ul {
   @include phone {
     gap: 26px;
   }
+
   a {
-    color:$font-color;
+    color: $font-color;
     font-size: 24px;
     font-weight: 500;
     line-height: 34px;
     text-align: right;
+
     @include tab {
       font-size: 1em;
     }
@@ -25,7 +27,7 @@ ul {
     text-decoration: none;
   }
 }
-
+/*
 .nav-active {
   position: relative;
 
@@ -40,4 +42,4 @@ ul {
     left: 50%;
     @include underlineLink;
   }
-}
+}*/

@@ -1,10 +1,11 @@
 *,
 ::before,
 ::after {
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0;
 }
+
 html,
 body,
 div,
@@ -109,17 +110,21 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -127,6 +132,7 @@ q:after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;

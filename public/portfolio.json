@@ -20,8 +20,8 @@
 			"Javascript"
 		],
 		"logos": [
-			"../langages/HTML51.webp",
-			"../langages/css-31.webp",
+			"../langages/logo-htmlpf.webp",
+			"../langages/csspf.webp",
 			"../langages/Javascript1.webp"
 		],
 		"tags": [
@@ -44,7 +44,7 @@
 		"project": ["https://kasa-react-et-vite.vercel.app/"],
 		"logos": [
 			"../langages/Sass1.webp",
-			"../langages/react1.webp"
+			"../langages/react-logopf.webp"
 		],
 		"learning": [
 			"SASS",
@@ -68,7 +68,7 @@
 		"description": "Debugger le site d'une agence d'événementiel.",
 		"project": ["https://debugp10.netlify.app/"],
 		"logos": [
-			"../langages/react1.webp",
+			"../langages/react-logopf.webp",
 			"../langages/jest-logo.webp"
 		],
 		"learning": [
@@ -97,9 +97,9 @@
 		"description": "Implémentez le front-end d'une application bancaire avec React.",
 		"project": ["#"],
 		"logos": [
-			"../langages/css-31.webp",
-			"../langages/react1.webp",
-			"../langages/redux1.webp"
+			"../langages/csspf.webp",
+			"../langages/react-logopf.webp",
+			"../langages/react-reduxpf.webp"
 		],
 		"learning": [
 			"React",

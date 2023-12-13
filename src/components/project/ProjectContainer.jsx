@@ -1,31 +1,13 @@
+let infoLogo, imgLogo
+
 export default function ProjectContainer() {
-  "use strict";
-  window.addEventListener("DOMContentLoaded", (event) => {
-    animate_text();
-  });
-  function animate_text() 
-{
-  let delay = 100,
-      delay_start = 0,
-      contents,
-      letters;
-
-  document.querySelectorAll(".animate-text").forEach(function (elem) {
-    contents = elem.textContent.trim();
-    elem.textContent = "";
-    letters = contents.split("");
-    elem.style.visibility = 'visible';
-
-    letters.forEach(function (letter, index_1) {
-      setTimeout(function () {
-        // effet machine à écrire 
-        elem.textContent += letter;
-      }, delay_start + delay * index_1);
-    });    
-    delay_start += delay * letters.length;
-  });
-}
-animate_text()
+  infoLogo = document.querySelector(".spanLogoInfo")
+  console.log("logo", infoLogo)
+  imgLogo = document.querySelector(".img")
+  console.log("img", imgLogo)
+  /*infoLogo.addEventListener("mouseover", function(e) {
+    e.target.display = "flex"
+  })*/
   return (
     <div className="projectTitle">
       <h2 className="bloc">
@@ -38,12 +20,12 @@ animate_text()
         <span className="letter07">s</span>
       </h2>
       <div className="imgProject">
-        <img src="./langages/HTML51.webp" alt="logo html" title="HTML" />
-        <img src="./langages/css-31.webp" alt="logo html" title="CSS" />
-        <img src="./langages/Sass1.webp" alt="logo html" title="SASS"/>
-        <img src="./langages/Javascript1.webp" alt="logo html" title="Javascript" />
-        <img src="./langages/react1.webp" alt="logo html" title="REACT" />
-        <img src="./langages/redux1.webp" alt="logo html" title="REDUX"/>
+        <img src="./langages/logo-htmlpf.webp" alt="logo html" title="HTML" />
+        <img src="./langages/csspf.webp" alt="logo css" title="CSS" />
+        <img src="./langages/Sass1.webp" alt="logo sass" title="SASS"/>
+        <img src="./langages/Javascript1.webp" alt="logo javascript" title="Javascript" />
+        <img src="./langages/react-logopf.webp" alt="logo react" title="REACT" />
+        <img src="./langages/react-reduxpf.webp" alt="logo redux" title="REDUX"/>
         <img src="./langages/seo.webp" alt="logo SEO" title="SEO" />
       </div>
     </div>

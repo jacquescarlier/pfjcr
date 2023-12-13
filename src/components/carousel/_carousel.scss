@@ -5,7 +5,6 @@
 .carousel {
   position: relative;
   margin: 0px 0px 0.6em 0px;
-
 }
 
 .carouselPicture {
@@ -32,7 +31,7 @@
   transform: translatey(50%);
   z-index: 3;
   cursor: pointer;
-  
+
   @include desktop {
     height: 90px;
     width: 72px;
@@ -58,6 +57,7 @@
   @include tab {
     padding: 8px 5px 1px 5px;
   }
+
   @include phone {
     padding: 6px 3px 4px 5px;
   }
@@ -72,6 +72,7 @@
   @include tab {
     padding: 8px 5px 1px 5px;
   }
+
   @include phone {
     padding: 6px 5px 4px 3px;
   }
@@ -79,14 +80,12 @@
 
 .carouselCounter {
   position: absolute;
-  background: linear-gradient(
-      180deg,
+  background: linear-gradient(180deg,
       rgba(255, 255, 255, 0) 0%,
-      rgba(0, 0, 0, 0.5) 100%
-    );
-    background-color: black;
-    padding: 8px;
-    border-radius: 50%;
+      rgba(0, 0, 0, 0.5) 100%);
+  background-color: black;
+  padding: 8px;
+  border-radius: 50%;
   bottom: 20px;
   right: 50%;
   color: $neutral-color;

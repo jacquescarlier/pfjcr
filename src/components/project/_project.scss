@@ -5,11 +5,9 @@
   width: 100%;
   box-sizing: border-box;
   position: relative;
-
   h2 {
     width: 100%;
   }
-
   .bloc {
     @include fadein;
     @include translateTitle;
@@ -25,22 +23,19 @@
     border: solid $font-color 1px;
     border-radius: 0.5em;
     background-color: $border-color;
-
     @include phone {
       width: 100%;
     }
-
     img {
       height: 3em;
       width: 3em;
       margin: 0.5em;
-
       @include phone {
         height: 1.5em;
         width: 1.5em;
       }
       &:hover {
-        @include shake;
+        transform: scale(3);
       }
     }
   }

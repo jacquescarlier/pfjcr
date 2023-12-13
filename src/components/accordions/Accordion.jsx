@@ -3,9 +3,9 @@ import Arrow from "../../pictures/logo/arrow-down.webp";
 
 const Accordion = ({ title, content }) => {
   const [isActive, setIsActive] = useState(true);
- 
+
   const handleClick = () => {
-     setIsActive(!isActive);
+    setIsActive(!isActive);
   };
   return (
     <div className="accordion-item">

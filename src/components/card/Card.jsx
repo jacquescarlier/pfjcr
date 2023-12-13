@@ -7,19 +7,6 @@ function Card() {
   const [portfolio, setPortfolio] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [modal, setModal] = useState(false);
-
-  const toggleModal = () => {
-    setModal(!modal);
-  };
-
-  if(modal) {
-    document.body.classList.add('active-modal')
-  } else {
-    document.body.classList.remove('active-modal')
-  }
-
-
 
   useEffect(() => {
     fetch(urlApi)
@@ -54,7 +41,7 @@ function Card() {
             className="card"
           >
             <img loading="lazy" src={portfolioData.cover} alt={portfolioData.alt}></img>
-            <p className="card-title">{portfolioData.title}</p>
+            <h3 className="card-title">{portfolioData.title}</h3>
           </Link>
         ))}
       </div>

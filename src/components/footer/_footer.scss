@@ -8,9 +8,11 @@ footer {
   flex-direction: column;
   row-gap: 25px;
   margin: 0px;
+
   @include phone {
     gap: 0px;
   }
+
   .contact {
     color: $font2-color;
 
@@ -18,34 +20,39 @@ footer {
       margin-bottom: 1em;
     }
   }
-  ul {
-    li{
-      span {
-        font-size: 2em;
-        font-weight: bolder;
-      }
-  img {
-    height: 50px;
-    width: 50px;
+
+  h2.h2contact {
+    width: 86.8%;
   }
-}}
-  p {
+
+  ul {
+    li {
+      a {
+        padding: 0;
+        background: transparent;
+      }
+
+      img {
+        height: 50px;
+        width: 50px;
+      }
+    }
+  }
+
+  span {
     font-size: 24px;
     text-align: center;
+    margin-bottom: 1em;
 
     @include phone {
       width: 122px;
       font-size: 12px;
       line-height: 2em;
     }
-  }
-  .topLink {
-    text-decoration: none;
-    color: $bg-color;
-    padding: 5px 30px;
-    background-color: $font-color;
-    cursor: pointer;
-    border-radius: 1em;
 
+    a {
+      text-decoration: none;
+      color: $font-color;
+    }
   }
 }

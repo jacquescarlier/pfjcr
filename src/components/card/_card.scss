@@ -12,6 +12,7 @@
     padding: 20px 2.5%;
     background: $gradient;
   }
+
   @include phone {
     padding: 0;
     margin: 1em 0 2em 0;
@@ -25,9 +26,11 @@
     @include desktop-large {
       gap: 35px;
     }
+
     @include tab {
       gap: 20px;
     }
+
     @include phone {
       gap: 30px;
       padding: 0;
@@ -45,18 +48,21 @@
         height: 280px;
         width: 45%;
       }
+
       @include tab {
         height: 265px;
         width: 100%;
       }
+
       @include phone {
         height: 3em;
         width: 100%;
         padding: 5px 10px;
         background-color: $font2-color;
       }
+
       &:hover {
-        transform: scale(1.1);   
+        transform: scale(1.1);
         @include shake;
       }
 
@@ -94,11 +100,11 @@
         @include tab {
           width: 65%;
         }
+
         @include phone {
           width: 95%;
           height: 95%;
           border-radius: 1.2em;
-
         }
       }
     }

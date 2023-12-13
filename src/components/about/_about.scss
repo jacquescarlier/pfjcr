@@ -1,15 +1,14 @@
 section.aboutTitle {
-   /* margin-bottom: 0.8em;*/
-
     .bloc {
-    @include inverseTranslateTitle;
+        @include inverseTranslateTitle;
     }
 }
+
 section.aboutSection {
     width: 100%;
     font-size: 1.2em;
     background-color: $font2-color;
     color: $bg-color;
     padding: 15px 0.5em 0.5em 0.5em;
-    margin: -10px auto;
+    margin: -10px auto 60px auto;
 }

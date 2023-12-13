@@ -136,3 +136,7 @@
     opacity: 1;
   }
 }
+/* scale */
+@mixin scaleLogo {
+  transform: scale3d(1.2 1.2 0.8);
+}
