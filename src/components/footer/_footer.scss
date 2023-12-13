@@ -4,15 +4,20 @@ footer {
   background-color: $gradient;
   color: $font2-color;
   margin: 0px;
+  padding: 0 0 2em 0;
   @include flex-justify-items-center;
   flex-direction: column;
   row-gap: 25px;
-  margin: 0px;
-
+  
   @include phone {
     gap: 0px;
   }
-
+  img{
+    height: 70px;
+    width: 50px;
+    text-decoration: none;
+    border: none;
+  }
   .contact {
     color: $font2-color;
 
@@ -54,6 +59,17 @@ footer {
     a {
       text-decoration: none;
       color: $font-color;
+      font-weight: bolder;
+      font-size: x-large;
+      padding: 5px 20px;
+      background-color: #000;
+      border-radius: 1em;
+      border-bottom: 5px solid $border-color;
+      margin-bottom: 1em;
+
+      &:focus {
+        border-bottom: 1px solid $border-color ;
+      }
     }
   }
 }

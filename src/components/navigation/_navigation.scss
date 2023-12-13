@@ -4,42 +4,20 @@ ul {
   list-style: none;
 
   @include phone {
-    gap: 26px;
+    gap: 20px;
   }
 
-  a {
+  li a {
     color: $font-color;
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: 500;
     line-height: 34px;
     text-align: right;
-
-    @include tab {
-      font-size: 1em;
-    }
-
-    @include phone {
-      font-size: 1em;
-    }
-  }
-
-  a {
     text-decoration: none;
+    
+    @include phone {
+      font-size: 1.2em;
+    }
   }
 }
-/*
-.nav-active {
-  position: relative;
 
-  &::after {
-    content: "";
-    height: 2px;
-    width: 0;
-    background: $border-color;
-    border-radius: 10px;
-    position: absolute;
-    bottom: 0px;
-    left: 50%;
-    @include underlineLink;
-  }
-}*/
