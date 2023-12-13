@@ -4,7 +4,7 @@ import Banner from "../components/banner/Banner";
 import ProjectContainer from "../components/project/ProjectContainer";
 import Card from "../components/card/Card"
 import Footer from "../components/footer/Footer";
-import picture from "../pictures/banner_codeur-unsplash.webp";
+import picture from "../pictures/banner_codeurL.webp";
 import smallPicture from "../pictures/banner_codeur-mobile.webp"
 import About from "../components/about/About";
 
