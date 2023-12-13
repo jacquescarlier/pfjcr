@@ -1,18 +1,32 @@
 .header {
   height: 68px;
   display: flex;
-  background-color: $gradient;
   justify-content: space-between;
-  align-content: center;
+  align-items: center;
   padding: 0 1em 28px 1em;
   border-radius: 0.7em;
   margin-bottom: 10px;
+  margin-top: 10px;
 
   @include phone {
     height: 57px;
     margin-bottom: 1em;
     margin: 0.2em 0.5em 1em;
     box-sizing: border-box;
+  }
+
+  .logoRotate {
+    @include logoRotate;
+
+    span {
+      color: $font2-color;
+      font-size: 1em;
+      font-weight: bolder;
+      font-family: Grandstander;
+      padding: 10px;
+      border-radius: 50%;
+      border: 2px solid $font-color;
+    }
   }
 
   img {

@@ -140,3 +140,13 @@
 @mixin scaleLogo {
   transform: scale3d(1.2 1.2 0.8);
 }
+/* logo rotation */
+
+@mixin logoRotate {
+  animation: logoRotate 1s linear 5 ;
+}
+
+@keyframes logoRotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(359deg);}
+}
