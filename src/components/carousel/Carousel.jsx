@@ -28,7 +28,7 @@ const Carousel = ({ pictures, title, alt }) => {
     }
     return (
         <section className="carousel">
-            <img src={currentPicture} alt={alt} className="carouselPicture" />
+            <img src={currentPicture} alt={title} className="carouselPicture" />
             <img src={ArrowRight} alt="Fléche droite " onClick={nextPicture} className="carouselArrow carouselArrowRight "></img>
             <img src={ArrowLeft} alt='Fléche gauche' onClick={previousPicture} className="carouselArrow carouselArrowLeft"></img>
         </section>
