@@ -1,25 +1,12 @@
 import React from "react";
-import Accordion from "../accordions/Accordion";
-import { accordionData } from "../../datas/accordionAboutData";
 
 const About = () => {
-  /*
-   <div className="accordionBody">
-            {accordionData.map(({ title, content, id }) => (
-              <Accordion key={id} title={title} content={content} />
-            ))}
-          </div>
-  
-  */
+
   return (
     <>
       <section className="aboutTitle" id="about">
         <h2 className="bloc">
-          <span>A</span>
-          <span>b</span>
-          <span>o</span>
-          <span>u</span>
-          <span>t</span>
+          About
         </h2>
       </section>
       <section className="aboutSection">
