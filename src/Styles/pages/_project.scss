@@ -15,15 +15,16 @@
 .titleInfo {
   width: 100%;
   padding: 0 0 15px 0;
-
+  font-family: $font-main;
   @include tab {
     width: 100%;
     font-size: 16px;
   }
 
   h1 {
+    font-family: $font-secondary;
     font-size: 36px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 51px;
     padding-bottom: 10px;
 

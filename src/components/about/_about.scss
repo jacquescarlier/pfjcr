@@ -11,4 +11,8 @@ section.aboutSection {
     color: $bg-color;
     padding: 15px 0.5em 0.5em 0.5em;
     margin: -10px auto 60px auto;
+
+    p{
+        font-family: $font-main;
+    }
 }

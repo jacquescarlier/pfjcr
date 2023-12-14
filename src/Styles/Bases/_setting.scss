@@ -43,7 +43,8 @@ body {
       font-size: 2em;
       text-align: center;
       color: $font-color;
-      font-family: Grandstander;
+      font-family: $font-secondary;
+      font-weight: 800;
       letter-spacing: 0.6em;
       background-color: $primary-color;
       border-radius: 10px;

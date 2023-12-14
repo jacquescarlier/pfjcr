@@ -50,6 +50,7 @@
         border-radius: 10px;
         color: $bg-color;
         cursor: pointer;
+        font-family: $font-secondary;
         font-size: 1.5em;
         letter-spacing: 0.35em;
         font-weight: 700;
@@ -98,8 +99,9 @@
         background-color: $gradient;
         border: solid $font-color 1px;
         border-radius: 0px 0px 10px 10px;
+        font-family: $font-main;
         color: $font-color;
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 700;
         line-height: 25px;
         padding: 30px 20px 20px 20px;
@@ -131,25 +133,7 @@
 
           li {
             margin-bottom: -15px;
-            font-size: 24px;
-            font-weight: 500;
-            color: $font-color;
             line-height: 0;
-            text-align: left;
-
-            @include desktop {
-              font-size: 18px;
-              margin-bottom: -20px;
-            }
-
-            @include tab {
-              font-size: 16px;
-            }
-
-            @include phone {
-              font-size: 13px;
-              margin-bottom: 0px;
-            }
           }
         }
       }
