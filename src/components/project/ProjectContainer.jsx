@@ -1,13 +1,5 @@
-let infoLogo, imgLogo
-
 export default function ProjectContainer() {
-  infoLogo = document.querySelector(".spanLogoInfo")
-  console.log("logo", infoLogo)
-  imgLogo = document.querySelector(".img")
-  console.log("img", imgLogo)
-  /*infoLogo.addEventListener("mouseover", function(e) {
-    e.target.display = "flex"
-  })*/
+  
   return (
     <div className="projectTitle">
       <h2 className="bloc">

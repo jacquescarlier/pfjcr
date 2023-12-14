@@ -58,7 +58,7 @@
 }
 /*appearence of banner title */
 @mixin fadein {
-  animation: fadein 1500ms;
+  animation: fadein 400ms;
 }
 @keyframes fadein {
   0% {
