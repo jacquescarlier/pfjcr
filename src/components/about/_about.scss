@@ -12,6 +12,9 @@ section.aboutSection {
     padding: 15px 0.5em 0.5em 0.5em;
     margin: -10px auto 60px auto;
 
+    @include phone {
+        width: 90%;
+    }
     p{
         font-family: $font-main;
         font-weight: 600;

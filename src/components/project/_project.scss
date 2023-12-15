@@ -7,6 +7,11 @@
   position: relative;
   h2 {
     width: 100%;
+
+
+    @include phone {
+      width: 90%
+    }
   }
   .bloc {
     @include fadein;
@@ -24,7 +29,7 @@
     border-radius: 0.5em;
     background-color: $border-color;
     @include phone {
-      width: 100%;
+      width: 90%;
     }
     img {
       height: 3em;
