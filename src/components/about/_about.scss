@@ -1,22 +1,31 @@
 section.aboutTitle {
-    .bloc {
-        @include inverseTranslateTitle;
-    }
+  .bloc {
+    @include inverseTranslateTitle;
+  }
 }
 
 section.aboutSection {
-    width: 100%;
-    font-size: 1.2em;
-    background-color: $font2-color;
-    color: $bg-color;
-    padding: 15px 0.5em 0.5em 0.5em;
-    margin: -10px auto 60px auto;
+  width: 85%;
+  font-size: 1.2em;
+  background-color: $font2-color;
+  color: $bg-color;
+  padding: 15px 0.5em 0.5em 0.5em;
+  margin: -10px auto 60px auto;
+
+@include tab {
+    width: 95%;
+}
+
+  @include phone {
+    width: 90%;
+  }
+  p {
+    font-family: $font-main;
+    font-size: 1.5em;
+    font-weight: 600;
 
     @include phone {
-        width: 90%;
+        font-size: 0.8em;
     }
-    p{
-        font-family: $font-main;
-        font-weight: 600;
-    }
+  }
 }
