@@ -10,7 +10,6 @@
 
   @include tab {
     padding: 20px 2.5%;
-    background: $gradient;
   }
 
   @include phone {
@@ -32,7 +31,7 @@
     }
 
     @include phone {
-      background-color: $title-color;
+      background: $title-color;
       gap: 30px;
       padding: 0;
       margin: 0;
