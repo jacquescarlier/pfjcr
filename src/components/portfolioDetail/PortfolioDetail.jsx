@@ -8,13 +8,13 @@ const PortfolioDetail = ({ portfolioData }) => {
         <h1> {portfolioData.title}</h1>
         {!siteProject && (
         <>
-        <span><a href={portfolioData.tags} target="_blank" rel="noopener">GitHub</a></span>
+        <a href={portfolioData.tags} target="_blank" rel="noopener"><span>GitHub</span></a>
         </>
         )}
         {siteProject && (
           <>
-            <span><a href={portfolioData.project} target="_blank" rel="noopener">Site</a></span>
-            <span><a href={portfolioData.tags} target="_blank" rel="noopener">GitHub</a></span>
+            <a href={portfolioData.project} target="_blank" rel="noopener"><span>Site</span></a>
+            <a href={portfolioData.tags} target="_blank" rel="noopener"><span>GitHub</span></a>
           </>
         )}
       </div>

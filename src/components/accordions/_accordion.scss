@@ -19,7 +19,7 @@
   }
 
   @include phone {
-    margin: 0px 0px 19px 0px;
+    margin: 0px 1em 1em 1em;
     gap: 20px;
   }
 
@@ -108,7 +108,7 @@
         @include descending;
 
         @include desktop {
-          font-size: 22px;
+          font-size: 20px;
         }
 
         @include tab {

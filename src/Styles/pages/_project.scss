@@ -7,8 +7,9 @@
   padding: 0px 0px 20px 0px;
   gap: 10px;
 
-  @include tab {
-    width: 100%;
+  @include phone {
+    margin-left: 1em;
+    margin-right: 1em;
   }
 }
 
