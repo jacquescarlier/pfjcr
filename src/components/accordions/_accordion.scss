@@ -121,17 +121,12 @@
         }
 
         ul {
-          padding: 10px 0px 20px 0px;
+          padding: 10px 0px 10px 0px;
           @include flex-row;
           justify-content: space-around;
 
           @include phone {
-            padding: 0px 0px 10px 0px;
-          }
-
-          li {
-            margin-bottom: -15px;
-            line-height: 0;
+            padding: 0px 0px 5px 0px;
           }
         }
       }
