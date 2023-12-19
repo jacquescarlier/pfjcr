@@ -140,7 +140,7 @@
 /* logo rotation */
 
 @mixin logoRotate {
-  animation: logoRotate 0.4s linear 5;
+  animation: logoRotate 0.4s linear 10;
 }
 
 @keyframes logoRotate {

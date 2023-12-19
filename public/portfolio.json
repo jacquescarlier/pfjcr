@@ -92,7 +92,6 @@
 			"../argentbank/argentbank5.webp"
 		],
 		"description": "Implémentez le front-end d'une application bancaire avec React.",
-		"project": ["#"],
 		"logos": [
 			"../langages/csspf.webp",
 			"../langages/react-logopf.webp",
