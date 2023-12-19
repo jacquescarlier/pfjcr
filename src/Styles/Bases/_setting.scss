@@ -5,7 +5,10 @@ body {
   padding: 0 0px;
   margin: 0 auto;
   max-width: 1900px;
-
+ 
+  @include phone {
+    background: $title-color;
+  }
   #root {
     width: 100vw;
     display: flex;
@@ -31,7 +34,7 @@ body {
       }
 
       @include phone {
-        padding: 0.5em 0;
+        padding: 0.5em 0em;
       }
     }
     
