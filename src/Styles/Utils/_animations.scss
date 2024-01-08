@@ -147,3 +147,18 @@
     from {transform: rotate(0deg);}
     to {transform: rotate(359deg);}
 }
+/* flip text */
+@mixin flip2 {
+  animation: flip-2-ver-left-1 0.5s linear alternate ;
+
+}
+@keyframes flip2 {
+  0% {
+    transform: translateX(0) rotateY(0);
+    transform-origin: 0% 50%;
+  }
+  100% {
+    transform: translateX(-100%) rotateY(180deg);
+    transform-origin: 100% 0%;
+  }
+}
