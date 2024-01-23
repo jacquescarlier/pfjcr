@@ -12,7 +12,8 @@ section.aboutSection {
   color: $bg-color;
   padding: 15px 0.5em 0.5em 0.5em;
   margin: -10px auto 60px auto;
-
+  border-radius: 10px;
+  
 @include tab {
     width: 95%;
 }
