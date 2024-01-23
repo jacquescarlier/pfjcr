@@ -2,7 +2,7 @@
 	{
 		"id": "c67ab888",
 		"title": "Ohmyfood",
-		"cover": "./ohmyfood/omf1-1cover.webp",
+		"cover": "./ohmyfood/omf1.webp",
 		"alt": "image du site de restauration Ohmyfood",
 		"pictures": [
 			"../ohmyfood/omf1.webp",
@@ -26,7 +26,7 @@
 	{
 		"id": "c67ab8a7",
 		"title": "Portfolio Sophie Bluel",
-		"cover": "./sophie-bluel/sophiecover.webp",
+		"cover": "./sophie-bluel/sb11.webp",
 		"alt": "image du site du portfolio de Sophie Bluel",
 		"pictures": [
 			"../sophie-bluel/sophie11.webp",
