@@ -3,14 +3,10 @@ import {aboutData} from "../../datas/data"
 const About = () => {
   return (
     <>
-      <section className="aboutTitle" id="about">
-        <h2 className="bloc">
+        <h2 className=" aboutTitle"id ="about">
           About
         </h2>
-      </section>
-      <section className="aboutSection">
-        <p>{aboutData[0].content}</p>
-      </section>
+        <p className="aboutSection">{aboutData[0].content}</p> 
     </>
 
   );

@@ -2,106 +2,95 @@
   margin: 0;
 }
 
-.cards {
+.card-style {
+  @include flex-row-justify;
+  flex-wrap: wrap;
+  gap: 45px;
   border-radius: 25px;
   box-sizing: border-box;
   padding: 50px 4.3%;
   margin: 22px 0px 50px 0px;
 
+  @include desktop-large {
+    gap: 35px;
+  }
+
   @include tab {
+    gap: 20px;
     padding: 20px 2.5%;
   }
 
   @include phone {
+    background: $title-color;
+    gap: 30px;
     padding: 0;
     margin: 1em 1em 2em 1em;
   }
 
-  .card-style {
-    @include flex-row-justify;
-    flex-wrap: wrap;
-    gap: 45px;
+  .card {
+    width: 45%;
+    height: 340px;
+    border-radius: 20px;
+    position: relative;
+    border: solid $font-color 1px;
 
-    @include desktop-large {
-      gap: 35px;
+    @include desktop {
+      height: 280px;
+      width: 45%;
     }
 
     @include tab {
-      gap: 20px;
+      height: 265px;
+      width: 100%;
     }
 
     @include phone {
-      background: $title-color;
-      gap: 30px;
-      padding: 0;
-      margin: 0;
+      height: 3em;
+      width: 100%;
+      padding: 5px 10px;
+      background-color: $font2-color;
     }
 
-    .card {
-      width: 45%;
-      height: 340px;
+    &:hover {
+      transform: scale(1.1);
+      @include shake;
+    }
+
+    img {
       border-radius: 20px;
-      position: relative;
-      border: solid $font-color 1px;
-
-      @include desktop {
-        height: 280px;
-        width: 45%;
-      }
-
-      @include tab {
-        height: 265px;
-        width: 100%;
-      }
+      object-fit: cover;
+      object-position: top;
+      width: 100%;
+      height: 100%;
 
       @include phone {
-        height: 3em;
-        width: 100%;
-        padding: 5px 10px;
-        background-color: $font2-color;
+        display: none;
+        width: 0%;
       }
+    }
 
-      &:hover {
-        transform: scale(1.1);
-        @include shake;
-      }
+    .card-title {
+      width: auto;
+      height: auto;
+      position: absolute;
+      bottom: 5%;
+      left: 3%;
+      border-radius: 0.5em;
+      padding: 0.2em 0.7em;
+      background-color: $font2-color;
+      color: $title-color;
+      font-family: $font-secondary;
+      font-size: 1.3em;
+      font-weight: 900;
+      font-style: italic;
+      margin: 0;
+      display: flex;
+      align-items: flex-end;
 
-      img {
-        border-radius: 20px;
-        object-fit: cover;
-        object-position: top;
-        width: 100%;
-        height: 100%;
-
-        @include phone {
-          display: none;
-          width: 0%;
-        }
-      }
-
-      .card-title {
-        width: auto;
-        height: auto;
-        position: absolute;
-        bottom: 5%;
-        left: 3%;
-        border-radius: 0.5em;
-        padding: 0.2em 0.7em;
-        background-color: $font2-color;
-        color: $title-color;
-        font-family: $font-secondary;
-        font-size: 1.3em;
-        font-weight: 900;
-        font-style: italic;
-        margin: 0;
-        display: flex;
-        align-items: flex-end;
-
-        @include phone {
-          width: 95%;
-          height: 95%;
-          border-radius: 1.2em;
-        }
+      @include phone {
+        width: 95%;
+        height: 95%;
+        border-radius: 1.2em;
       }
     }
   }

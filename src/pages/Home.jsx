@@ -14,16 +14,13 @@ const Home = () => {
     <>
       <div className="container-general">
         <Header />
-        <section className="image-banner banner-home">
-          <Banner
-            className="image-banner"
-            image={picture}
-            smallImage={smallPicture}
-            alt="photo écran de code"
-            title1="Welcome !"
-            title2="Hi, i'm Jacques, web integrator."
-          />
-        </section>
+        <Banner
+          image={picture}
+          smallImage={smallPicture}
+          alt="photo écran de code"
+          title1="Welcome !"
+          title2="Hi, i'm Jacques, web integrator."
+        />
         <ProjectContainer />
         <Card />
         <About />

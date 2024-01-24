@@ -32,8 +32,8 @@ function Card() {
   if (error) return "Error ! ";
 
   return (
-    <div className="cards" id="project">
-      <div className="card-style">
+    <>
+      <div className="card-style" id="project">
         {portfolio.map((portfolioData) => (
           <Link
             to={`/project/${portfolioData.id}`}
@@ -45,7 +45,7 @@ function Card() {
           </Link>
         ))}
       </div>
-    </div>
+    </>
   );
 }
 export default Card;

@@ -1,11 +1,8 @@
-section.aboutTitle {
-  .bloc {
+.aboutTitle {
     @include inverseTranslateTitle;
-    /*@include flip2;*/
-  }
 }
 
-section.aboutSection {
+.aboutSection {
   width: 85%;
   font-size: 1.2em;
   background-color: $font2-color;
@@ -13,6 +10,9 @@ section.aboutSection {
   padding: 15px 0.5em 0.5em 0.5em;
   margin: -10px auto 60px auto;
   border-radius: 10px;
+  font-family: $font-main;
+    font-size: 1.5em;
+    font-weight: 600;
   
 @include tab {
     width: 95%;
@@ -20,14 +20,6 @@ section.aboutSection {
 
   @include phone {
     width: 90%;
-  }
-  p {
-    font-family: $font-main;
-    font-size: 1.5em;
-    font-weight: 600;
-
-    @include phone {
-        font-size: 0.8em;
-    }
+    font-size: 0.8em;
   }
 }
