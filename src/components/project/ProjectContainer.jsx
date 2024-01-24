@@ -1,5 +1,6 @@
+import { imgLangages } from "../../datas/data"
+
 export default function ProjectContainer() {
-  
   return (
     <div className="projectTitle">
       <h2 className="bloc">
@@ -12,13 +13,11 @@ export default function ProjectContainer() {
         <span className="letter07">s</span>
       </h2>
       <div className="imgProject">
-        <img src="./langages/logo-htmlpf.webp" alt="logo html" title="HTML" />
-        <img src="./langages/csspf.webp" alt="logo css" title="CSS" />
-        <img src="./langages/Sass1.webp" alt="logo sass" title="SASS"/>
-        <img src="./langages/Javascript1.webp" alt="logo javascript" title="Javascript" />
-        <img src="./langages/react-logopf.webp" alt="logo react" title="REACT" />
-        <img src="./langages/react-reduxpf.webp" alt="logo redux" title="REDUX"/>
-        <img src="./langages/seo.webp" alt="logo SEO" title="SEO" />
+        {imgLangages.map(function (langage) {
+          return (
+            <img key= {langage.id} src={langage.img} alt={langage.alt} />
+          )
+        })}
       </div>
     </div>
   )

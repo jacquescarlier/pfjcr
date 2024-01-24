@@ -1,4 +1,4 @@
-  export const AboutData = [
+  export const aboutData = [
   {
     id: 1,
     title: "Expérience",
@@ -12,36 +12,36 @@ export const imgLangages = [
   {
     id: 101,
     alt: "logo Html",
-    img: "./logo-htmlpf.webp"
+    img: "./langages/020-html-5.webp"
   },
   {
     id: 102,
     alt: "logo Css",
-    img: "./csspf.webp"
+    img: "./langages/019-css-3.webp"
   },
   {
     id: 103,
     alt: "logo Sass",
-    img: "./Sass1.webp"
+    img: "./langages/Sass1.webp"
   },
   {
     id: 104,
     alt: "logo Java script",
-    img: "./Javascript1.webp"
+    img: "./langages/Javascript1.webp"
   },
   {
     id: 105,
     alt: "logo React",
-    img: "./react-logopf.webp"
+    img: "./langages/react-logopf.webp"
   },
   {
     id: 106,
     alt: "logo Redux",
-    img: "./redux1.webp"
+    img: "./langages/redux.webp"
   },
   {
     id: 107,
     alt: "logo Seo",
-    img: "./seo.webp"
+    img: "./langages/023-seo.webp"
   }
 ]
