@@ -1,12 +1,30 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Arrow from "../../pictures/logo/arrow-down.webp";
 
 const Accordion = ({ title, content }) => {
-  const [isActive, setIsActive] = useState(true);
+  const [isActive, setIsActive] = useState(false);
 
   const handleClick = () => {
     setIsActive(!isActive);
   };
+
+  useEffect(() => {
+    let timeoutId;
+
+    // Vérifier si l'accordéon est actuellement fermé
+    if (!isActive) {
+      // Attendre 2 secondes avant d'ouvrir l'accordéon
+      timeoutId = setTimeout(() => {
+        setIsActive(true);
+      }, 1000);
+    }
+
+    // Nettoyer le timeout lorsqu'un nouveau rendu se produit ou lorsque le composant est démonté
+    return () => {
+      clearTimeout(timeoutId);
+    };
+  }, [isActive]);
+
   return (
     <div className="accordion-item">
       <div className="accordion-title" onClick={handleClick}>
@@ -15,7 +33,7 @@ const Accordion = ({ title, content }) => {
           {" "}
           <img
             src={Arrow}
-            alt="Fléche pour afficher le description"
+            alt="Flèche pour afficher le description"
             className={isActive ? "rotated" : "arrow"}
           />
         </div>
