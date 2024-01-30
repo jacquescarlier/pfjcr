@@ -10,15 +10,12 @@ const Accordion = ({ title, content }) => {
 
   useEffect(() => {
     let timeoutId;
-
     // Vérifier si l'accordéon est actuellement fermé
     if (!isActive) {
-      // Attendre 2 secondes avant d'ouvrir l'accordéon
       timeoutId = setTimeout(() => {
         setIsActive(true);
       }, 1000);
     }
-
     // Nettoyer le timeout lorsqu'un nouveau rendu se produit ou lorsque le composant est démonté
     return () => {
       clearTimeout(timeoutId);
