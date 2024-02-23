@@ -10,7 +10,7 @@
 }
 /*title translate*/
 @mixin translateTitle {
-  animation: translateTitle 0.5s cubic-bezier(1.0,-0.12,.13,1.0) forwards;
+  animation: translateTitle 1s cubic-bezier(1.0,-0.12,.13,1.0) forwards;
 }
 @keyframes translateTitle {
   0% {
@@ -21,7 +21,7 @@
   }
 }
 @mixin inverseTranslateTitle {
-  animation: inverseTranslateTitle 0.5s cubic-bezier(1.0,-0.12,.13,1.0) forwards;
+  animation: inverseTranslateTitle 1s cubic-bezier(1.0,-0.12,.13,1.0) forwards;
 }
 @keyframes inverseTranslateTitle {
   0% {

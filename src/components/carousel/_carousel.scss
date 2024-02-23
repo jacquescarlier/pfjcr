@@ -13,6 +13,7 @@
 
   @include tab {
     height: 330px;
+    object-fit: cover;
   }
 
   @include phone {
