@@ -40,7 +40,7 @@
     .accordion-item {
       width: 100%;
       top: 0px;
-
+     
       .accordion-title {
         z-index: 2;
         height: 52px;
@@ -55,7 +55,7 @@
         letter-spacing: 0.35em;
         font-weight: 700;
         padding: 10px;
-
+        box-shadow: 10px -2px 5px $font-color;
         @include desktop {
           font-size: 22px;
         }
@@ -106,7 +106,7 @@
         position: relative;
         top: -10px;
         @include descending;
-
+        box-shadow: 10px 5px 5px $font-color;
         @include desktop {
           font-size: 20px;
         }
