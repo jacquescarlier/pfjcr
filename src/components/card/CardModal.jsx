@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Modal } from 'react-responsive-modal';
 import { useState } from "react";
 import Carousel from '../carousel/Carousel.jsx'
@@ -11,6 +11,7 @@ function CardModal({ projects }) {
 
     const [selectedItem, setSelectedItem] = useState(null);
     const [modalOpen, setModalOpen] = useState(false);
+    const modalRef = useRef(null);
 
     const openModal = (id) => {
         setSelectedItem(projects.find(project => project.id === id));
@@ -32,10 +33,11 @@ function CardModal({ projects }) {
                             alt={project.alt}
                             style={{ cursor: 'pointer' }}
                         />
-                        <p className="card-title">{project.title}</p>
+                        <h3 className="card-title">{project.title}</h3>
                     </div>
                 ))}
                 <Modal
+                    ref={modalRef}
                     open={modalOpen}
                     onClose={closeModal}
                     center
