@@ -25,12 +25,12 @@ function CardModal({ projects }) {
         <>
             <div className="card-style" id="project">
                 {projects.map(project => (
-                    <div key={project.id} className="card">
+                    <div key={project.id} className="card" onClick={() => openModal(project.id)} >
                         <img
+                            loading="lazy"
                             src={project.cover}
-                            alt="Image"
+                            alt={project.alt}
                             style={{ cursor: 'pointer' }}
-                            onClick={() => openModal(project.id)}
                         />
                         <p className="card-title">{project.title}</p>
                     </div>
@@ -39,7 +39,7 @@ function CardModal({ projects }) {
                     {selectedItem && (
                         <div className="modalContainer">
                             <Carousel pictures={selectedItem.pictures} title={selectedItem.title} />
-                            <PortfolioDetail project={selectedItem.project}  title={selectedItem.title} tags={selectedItem.tags} />
+                            <PortfolioDetail project={selectedItem.project} title={selectedItem.title} tags={selectedItem.tags} />
                             <PortfolioDropdown description={selectedItem.description} langages={selectedItem.logos} />
                             <button className="closeModal" onClick={closeModal}>Fermer</button>
                         </div>
