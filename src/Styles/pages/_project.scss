@@ -34,13 +34,15 @@
       line-height: 25px;
     }
   }
+/*
+  a {
+    text-decoration: none;
+    color: $bg-color;
+  }*/
 
   a {
     text-decoration: none;
     color: $bg-color;
-  }
-
-  span {
     margin: 0px 10px 0px 0px;
     background-color: $font2-color;
     border: 2px #614b3a solid;
@@ -48,10 +50,16 @@
     border-radius: 20px;
     font-size: 1.5em;
     font-weight: bolder;
+    box-shadow: 5px 5px 5px $jaune-dor;
 
+    &:active {
+      box-shadow: 0px 0px 0px $font2-color;
+      animation: all .5s ease;
+    }
     @include tab {
       font-size: 18px;
       padding: 4px 50px;
+
     }
 
     @include phone {
