@@ -22,7 +22,7 @@ const Carousel = ({ pictures, title, alt }) => {
     if (pictures.length === 1) {
         return (
             <section className="carousel">
-                <img src={currentPicture} alt={title} className="carouselPicture" />
+                <img src={currentPicture} alt={alt} className="carouselPicture" />
             </section>
         );
     }
