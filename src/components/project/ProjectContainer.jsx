@@ -12,7 +12,7 @@ export default function ProjectContainer() {
         <span className="letter06">t</span>
         <span className="letter07">s</span>
       </h2>
-      <div className="curtain"></div>
+      
       <div className="content">
         <div className="imgProject">
           {imgLangages.map(function (langage) {

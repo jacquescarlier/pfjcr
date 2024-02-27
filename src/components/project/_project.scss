@@ -5,13 +5,12 @@
   width: 100%;
   box-sizing: border-box;
   position: relative;
-  
+
   h2 {
     width: 100%;
 
-
     @include phone {
-      width: 90%
+      width: 90%;
     }
   }
   .bloc {
@@ -19,29 +18,34 @@
     @include translateTitle;
     @include letters;
   }
-  .imgProject {
+  .content {
     display: flex;
     justify-content: center;
-    gap: 0.5em;
-    width: auto;
-    margin-top: 0.75em;
-    padding: 0.25em 1em;
-    border: solid $font-color 1px;
-    border-radius: 0.5em;
-    background-color: $border-color;
-    @include phone {
-      width: 90%;
-    }
-    img {
-      height: 3em;
-      width: 3em;
-      margin: 0.5em;
+    
+    .imgProject {
+      display: flex;
+      justify-content: center;
+      gap: 0.5em;
+      width: auto;
+      margin-top: 0.75em;
+      padding: 0.25em 1em;
+      border: solid $font-color 1px;
+      border-radius: 0.5em;
+      background-color: $border-color;
       @include phone {
-        height: 1.5em;
-        width: 1.5em;
+        width: 90%;
       }
-      &:hover {
-        transform: scale(3);
+      img {
+        height: 3em;
+        width: 3em;
+        margin: 0.5em;
+        @include phone {
+          height: 1.5em;
+          width: 1.5em;
+        }
+        &:hover {
+          transform: scale(3);
+        }
       }
     }
   }
