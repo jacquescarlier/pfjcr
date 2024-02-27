@@ -31,6 +31,7 @@ const Carousel = ({ pictures, title, alt }) => {
             <img src={currentPicture} alt={title} className="carouselPicture" />
             <img src={ArrowRight} alt="Fléche droite " onClick={nextPicture} className="carouselArrow carouselArrowRight "></img>
             <img src={ArrowLeft} alt='Fléche gauche' onClick={previousPicture} className="carouselArrow carouselArrowLeft"></img>
+            <div className="carouselCounter"> {pictureCounter}</div>
         </section>
     )
 }

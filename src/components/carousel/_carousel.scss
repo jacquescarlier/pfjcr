@@ -58,3 +58,17 @@
     padding: 6px 5px 4px 3px;
   }
 }
+.carouselCounter {
+  position: absolute;
+  bottom: -1em;
+  right: 50%;
+  color: $font-color;
+  font-family: "Grandstander";
+  font-size: 18px;
+  font-weight: bolder;
+  letter-spacing: -2px;
+
+  @include phone {
+    display: none;
+  }
+}
