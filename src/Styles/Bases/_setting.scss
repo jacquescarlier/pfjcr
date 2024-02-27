@@ -1,5 +1,5 @@
 body {
-  background: $gradient;
+  background: $gradientClair;
   display: flex;
   justify-content: center;
   padding: 0 0px;
@@ -41,7 +41,7 @@ body {
     h2 {
       font-size: 2em;
       text-align: center;
-      color: $font-color;
+      color: $h2;
       font-family: $font-secondary;
       font-weight: 800;
       letter-spacing: 0.6em;
