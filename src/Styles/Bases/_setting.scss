@@ -6,9 +6,6 @@ body {
   margin: 0 auto;
   max-width: 1900px;
  
-  @include phone {
-    background: $title-color;
-  }
   #root {
     width: 100vw;
     display: flex;
