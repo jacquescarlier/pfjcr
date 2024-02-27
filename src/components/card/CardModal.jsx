@@ -1,7 +1,7 @@
 import React from "react";
 import { Modal } from 'react-responsive-modal';
 import { useState } from "react";
-import Carousel from '../carousel/carousel'
+import Carousel from '../carousel/Carousel.jsx'
 import 'react-responsive-modal/styles.css';
 import PortfolioDetail from "../portfolioDetail/PortfolioDetail";
 import PortfolioDropdown from "../portfolioDropdown/PortfolioDropdown";
