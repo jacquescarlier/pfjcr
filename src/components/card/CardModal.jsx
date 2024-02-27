@@ -5,12 +5,12 @@ import Carousel from '../carousel/Carousel.jsx'
 import 'react-responsive-modal/styles.css';
 import PortfolioDetail from "../portfolioDetail/PortfolioDetail";
 import PortfolioDropdown from "../portfolioDropdown/PortfolioDropdown";
+import "./custom-animation.css"
 
 function CardModal({ projects }) {
+
     const [selectedItem, setSelectedItem] = useState(null);
     const [modalOpen, setModalOpen] = useState(false);
-
-
 
     const openModal = (id) => {
         setSelectedItem(projects.find(project => project.id === id));
@@ -35,7 +35,18 @@ function CardModal({ projects }) {
                         <p className="card-title">{project.title}</p>
                     </div>
                 ))}
-                <Modal open={modalOpen} onClose={closeModal} >
+                <Modal
+                    open={modalOpen}
+                    onClose={closeModal}
+                    center
+                    classNames={{
+                        overlayAnimationIn: 'customEnterOverlayAnimation',
+                        overlayAnimationOut: 'customLeaveOverlayAnimation',
+                        modalAnimationIn: 'customEnterModalAnimation',
+                        modalAnimationOut: 'customLeaveModalAnimation',
+                    }}
+                    animationDuration={800}
+                >
                     {selectedItem && (
                         <div className="modalContainer">
                             <Carousel pictures={selectedItem.pictures} title={selectedItem.title} />
