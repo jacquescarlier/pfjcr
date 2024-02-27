@@ -66,8 +66,9 @@
         }
 
         @include phone {
-          height: 30px;
-          font-size: 18px;
+          height: 38px;
+          font-size: 16px;
+          margin-bottom: 5px;
         }
 
         .arrow {
@@ -75,6 +76,11 @@
           height: 25px;
           border-radius: 50%;
           @include rotation0To180Deg;
+
+          @include phone {
+            width: 1em;
+            height: 1em;
+          }
         }
 
         .rotated {
@@ -82,6 +88,11 @@
           height: 25px;
           border-radius: 50%;
           @include rotation180To0Deg;
+
+          @include phone {
+            width: 1em;
+            height: 1em;
+          }
         }
       }
 
