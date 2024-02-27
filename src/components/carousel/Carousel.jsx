@@ -1,6 +1,6 @@
 import React, { useState } from "react"
-import ArrowRight from "../../pictures/logo/arrow_forward.webp"
-import ArrowLeft from "../../pictures/logo/arrow_back.webp"
+import ArrowRight from "../../pictures/logo/flechedroite.png"
+import ArrowLeft from "../../pictures/logo/flechegauche.png"
 
 const Carousel = ({ pictures, title, alt }) => {
 

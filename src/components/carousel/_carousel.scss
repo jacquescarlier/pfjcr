@@ -25,23 +25,13 @@
 }
 
 .carouselArrow {
-  width: 30px;
-  height: 24px;
+  width: 45px;
+  height: 36px;
   position: absolute;
   bottom: 50%;
   transform: translatey(50%);
   z-index: 3;
   cursor: pointer;
-
-  @include desktop {
-    height: 90px;
-    width: 72px;
-  }
-
-  @include tab {
-    height: 45px;
-    width: 36px;
-  }
 
   @include phone {
     height: 30px;
@@ -51,14 +41,8 @@
 
 .carouselArrowRight {
   right: 1%;
-  background-color: $border-color;
   border-radius: 50%;
   padding: 6px 3px 4px 5px;
-  /*padding: 14px 4px 14px 8px;*/
-
-  @include tab {
-    padding: 8px 5px 1px 5px;
-  }
 
   @include phone {
     padding: 6px 3px 4px 5px;
@@ -67,14 +51,8 @@
 
 .carouselArrowLeft {
   left: 1%;
-  background-color: $border-color;
   border-radius: 50%;
   padding: 6px 3px 4px 5px;
- /* padding: 14px 8px 1px 4px;*/
-
-  @include tab {
-    padding: 8px 5px 1px 5px;
-  }
 
   @include phone {
     padding: 6px 5px 4px 3px;
