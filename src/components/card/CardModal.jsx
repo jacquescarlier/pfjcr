@@ -40,6 +40,7 @@ function CardModal({ projects }) {
                     ref={modalRef}
                     open={modalOpen}
                     onClose={closeModal}
+                    initialFocusRef={modalRef}
                     center
                     classNames={{
                         overlayAnimationIn: 'customEnterOverlayAnimation',
