@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer id="contact">
-      <h2 className="h2contact">contact</h2>
+     
       <ul>
         <li><a href="mailto:jacques.carlier@gmail.com"> <img src="./images/emailpf.webp" alt="logo email" id="email" /></a></li>
         <li> <a href="https://github.com/jacquescarlier/" target="_blank" rel="noopener"> <img src="./images/github.webp" alt="logo github" /> </a> </li>

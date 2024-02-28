@@ -3,6 +3,7 @@ footer {
   height: 209px;
   color: $font2-color;
   margin: 0px;
+  margin-top: 30px;
   padding: 0 0 2em 0;
   @include flex-justify-items-center;
   flex-direction: column;
