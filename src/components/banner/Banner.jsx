@@ -5,8 +5,8 @@ function Banner({ image, smallImage, alt, title1, title2 }) {
     <div className="banner">
       <img fetchpriority="high" src={smallImage} srcSet={`${smallImage} 768w, ${image} 1900w`} sizes = "100w" alt={alt} />
       <h1 className="banner-text">
-        <span>{title1}</span>
-        <span>{title2}</span>
+        <h1>{title1}</h1>
+        <h1>{title2}</h1>
       </h1>
     </div>
   );
