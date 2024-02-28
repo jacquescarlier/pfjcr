@@ -8,7 +8,6 @@ import smallPicture from "../pictures/banner_codeur-mobile.webp"
 import About from "../components/about/About";
 import CardModal from "../components/card/CardModal";
 import { projects } from '../datas/data';
-import Email from "../components/email/Email";
 
 const Home = () => {
 
@@ -26,7 +25,7 @@ const Home = () => {
         <ProjectContainer />
         <CardModal projects={projects}/>
         <About />
-        <Email />
+        
       </div>
       <Footer />
     </>
