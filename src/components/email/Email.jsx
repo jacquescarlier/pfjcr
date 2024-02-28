@@ -23,11 +23,11 @@ export default function Email() {
             <h2>Contact Form</h2>
             <form className='cf' ref={form} onSubmit={sendEmail}>
                 <div className='half left cf'>
-                    <input type='text' placeholder='Name' name='user_name' />
-                    <input type='email' placeholder='Email address' name='user_email' />
+                    <input id="name" type='text' placeholder='Name' name='user_name' aria-labelledby="name" required />
+                    <input type='email' placeholder='Email address' name='user_email'    aria-labelledby="email" required/>
                 </div>
                 <div className='half right cf'>
-                    <textarea name='message' type='text' placeholder='Message'></textarea>
+                    <textarea id="message" name='message' type='text' placeholder='Message' aria-labelledby="message" ></textarea>
                 </div>
                 <input type='submit' value='Submit' id='input-submit' />
             </form>
