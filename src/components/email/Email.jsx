@@ -11,9 +11,11 @@ export default function Email() {
            )
             .then((result) => {
                 alert('message sent successfully...');
-                console.log(result.text);
-            },
-                (error) => { console.log(error.text); });
+                form.current.reset();
+            })
+            .catch((error) => {
+                console.error('Email sending failed:', error);
+            });
     };
 
     return (
