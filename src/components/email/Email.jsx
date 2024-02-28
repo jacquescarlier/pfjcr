@@ -17,7 +17,7 @@ export default function Email() {
     };
 
     return (
-        <div>
+        <div className= "contactForm">
             <h2>Contact Form</h2>
             <form className='cf' ref={form} onSubmit={sendEmail}>
                 <div className='half left cf'>

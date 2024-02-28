@@ -2,10 +2,15 @@ form {
   max-width: 600px;
   text-align: center;
   margin: 0px auto;
+  padding: 0.6em 1em;
+  border: 2px $font2-color solid;
+  border-radius: 1em;
 }
 input,
 textarea {
   border: 0;
+  background-color: $font2-color;
+  color: $bg-color;
   outline: 0;
   padding: 1em;
   border-radius: 8px;
