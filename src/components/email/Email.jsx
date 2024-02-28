@@ -27,7 +27,7 @@ export default function Email() {
                     <input type='email' placeholder='Email address' name='user_email'    aria-labelledby="email" required/>
                 </div>
                 <div className='half right cf'>
-                    <textarea id="message" name='message' type='text' placeholder='Message' aria-labelledby="message" ></textarea>
+                    <textarea id="message" name='message' type='text' placeholder='Message' aria-labelledby="message" required ></textarea>
                 </div>
                 <input type='submit' value='Submit' id='input-submit' />
             </form>
