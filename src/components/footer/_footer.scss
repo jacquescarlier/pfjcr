@@ -7,11 +7,11 @@ footer {
   @include flex-justify-items-center;
   flex-direction: column;
   row-gap: 25px;
-  
+
   @include phone {
     gap: 0px;
   }
-  img{
+  img {
     height: 70px;
     width: 50px;
     text-decoration: none;
@@ -70,8 +70,24 @@ footer {
       margin-bottom: 1em;
 
       &:focus {
-        border-bottom: 1px solid $h2 ;
+        border-bottom: 1px solid $h2;
       }
+    }
+  }
+  .backlinks {
+background-color: $font2-color;
+padding: 0px 1em;
+border-radius: 1em;
+    margin-bottom: 20px;
+    li a {
+    font-family: $font-secondary;
+    font-size: 1em;
+    color: $h2;
+
+    &:hover {
+      scale: (3);
+      color: lighten($color: $h2, $amount: 0.9);
+    }
     }
   }
 }
