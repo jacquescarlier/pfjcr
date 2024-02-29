@@ -6,8 +6,11 @@ export default function Curiculum() {
 
     return (
         <>
-<iframe src= '../datas/cv2024.pdf' width = "100%"  height= "500px"/>
-        <Email />
+            <div>
+            <iframe src="cvPDF&embedded=true" frameborder="0" height="500px" width="100%"></iframe>
+            
+            </div>
+            <Email />
         </>
     );
 }
