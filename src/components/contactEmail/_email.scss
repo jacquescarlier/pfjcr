@@ -21,7 +21,10 @@ textarea {
   resize: none;
 }
 #input-submit {
-  color: white;
+  color: $bg-color;
+  font-size: 1.5em;
+  font-family: $font-secondary;
+  font-weight: 900;
   background: #e74c3c;
   cursor: pointer;
   box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);

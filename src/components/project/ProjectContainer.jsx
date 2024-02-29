@@ -12,6 +12,7 @@ export default function ProjectContainer() {
         <span className="letter06">t</span>
         <span className="letter07">s</span>
       </h2>
+      npm run dev
       
       <div className="content">
         <div className="imgProject">
