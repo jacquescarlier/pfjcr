@@ -6,7 +6,7 @@ function Footer() {
      
       <ul>
       <Link
-        to= "/cv">
+        to= "/">
         <li><img src="./images/logoCV.webp" alt="logo email" id="email" /></li>
         </Link>
         <li> <a href="https://github.com/jacquescarlier/" target="_blank" rel="noopener"> <img src="./images/github.webp" alt="logo github" /> </a> </li>
