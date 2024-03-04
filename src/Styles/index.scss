@@ -8,13 +8,14 @@
 @import '../components/header/header';
 @import '../components/banner/banner';
 @import '../components/card/card';
-@import '../components/card/cardModal';
+@import '../components/modal/cardModal';
 @import '../components/contactEmail/email';
 @import '../components/footer/footer';
 @import '../components/about/about';
 @import '../components/portfolioDetail/portfolioDetails';
 @import "../components/project/project";
 @import "../components/projectNavigation/projectNavigation";
+@import "./pages/cvpdf";
 @import './pages/404';
 @import '../components/accordions/accordion';
 @import '../components/portfolioDropdown/portfolioDropdown';

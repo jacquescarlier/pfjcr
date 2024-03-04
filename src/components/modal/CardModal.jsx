@@ -3,8 +3,8 @@ import { Modal } from 'react-responsive-modal';
 import { useState } from "react";
 import Carousel from '../carousel/Carousel.jsx'
 import 'react-responsive-modal/styles.css';
-import PortfolioDetail from "../portfolioDetail/PortfolioDetail";
-import PortfolioDropdown from "../portfolioDropdown/PortfolioDropdown";
+import PortfolioDetail from "../portfolioDetail/PortfolioDetail.jsx";
+import PortfolioDropdown from "../portfolioDropdown/PortfolioDropdown.jsx";
 import "./custom-animation.css"
 
 function CardModal({ projects }) {

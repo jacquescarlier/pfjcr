@@ -6,9 +6,9 @@ import Footer from "../components/footer/Footer";
 import picture from "../pictures/banner_codeurL.webp";
 import smallPicture from "../pictures/banner_codeur-mobile.webp"
 import About from "../components/about/About";
-import CardModal from "../components/card/CardModal";
 import { projects } from '../datas/data';
 import Email from "../components/contactEmail/Email";
+import CardModal from "../components/modal/CardModal";
 
 const Home = () => {
 
