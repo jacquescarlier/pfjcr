@@ -24,7 +24,7 @@ const Home = () => {
           title2="Hi, i'm Jacques, web integrator."
         />
         <ProjectContainer />
-        <CardModal projects={projects}/>
+        <CardModal projects={projects} />
         <About />
         <Email />
       </div>

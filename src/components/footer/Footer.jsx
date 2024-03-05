@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom"
 
 function Footer() {
+ 
   return (
     <footer id="contact">
      
       <ul>
       <Link
-        to= "/">
+        to= "/cv">
         <li><img src="./images/logoCV.webp" alt="logo email" id="email" /></li>
         </Link>
         <li> <a href="https://github.com/jacquescarlier/" target="_blank" rel="noopener"> <img src="./images/github.webp" alt="logo github" /> </a> </li>
