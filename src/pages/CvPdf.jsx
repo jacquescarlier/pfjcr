@@ -18,13 +18,8 @@ const Curiculum = () => {
             <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
 
 
-                <div
-                    style={{
-                        height: '900px',
-                        width: '900px',
-                        marginLeft: 'auto',
-                        marginRight: 'auto',
-                    }}
+                <div className="cvpdf"
+                   
                 >
 
                     <Viewer fileUrl="./cv2024.pdf" defaultScale={SpecialZoomLevel.PageFit} plugins={[defaultLayoutPluginInstance]} />

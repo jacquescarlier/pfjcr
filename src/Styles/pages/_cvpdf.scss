@@ -7,4 +7,27 @@
     font-size: 1.5em;
     list-style-type: none;
     margin-top: 10px;
+
+    @include phone {
+        scale: 1;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+
+    }
 }
+.cvpdf {
+    width: 120%;
+    height: 850px;
+    margin: 0px;
+    padding: 0;
+    
+    @include phone {
+    margin: 0;
+    padding: 0;
+    justify-content: left;
+}
+
+}
+
+
