@@ -30,6 +30,6 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "pdfjs-dist": "^3.4.120",
-    "vite": "^5.1.5"
+    "vite": "^4.4.5"
   }
 }
