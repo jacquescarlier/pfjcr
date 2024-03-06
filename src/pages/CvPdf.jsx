@@ -7,8 +7,9 @@ import '@react-pdf-viewer/default-layout/lib/styles/index.css';
 
 const Curiculum = () => {
     const defaultLayoutPluginInstance = defaultLayoutPlugin();
-
+    window.scrollTo(0,0)
     return (
+        <div className='container-general'>
         <div className='retour'>
             <Link
                 to="/"
@@ -25,6 +26,7 @@ const Curiculum = () => {
                     <Viewer fileUrl="./cv2024.pdf" defaultScale={SpecialZoomLevel.PageFit} plugins={[defaultLayoutPluginInstance]} />
                 </div>
             </Worker>
+        </div>
         </div>
     );
 };
