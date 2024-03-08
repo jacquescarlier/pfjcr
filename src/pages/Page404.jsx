@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "../components/footer/Footer";
+import Footer from "../containers/footer/Footer";
 import ProjectNavigation from "../components/projectNavigation/ProjectNavigation";
 
 const Page404 = () => {
