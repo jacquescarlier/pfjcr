@@ -14,7 +14,7 @@ const Curiculum = () => {
             <div className='retour'>
                 <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
                     <div className="cvpdf">
-                        <Viewer fileUrl="./cv2024.pdf" defaultScale={SpecialZoomLevel.PageFit} />
+                        <Viewer fileUrl="./cv2024-1.pdf" defaultScale={SpecialZoomLevel.PageFit} />
                     </div>
                 </Worker>
             </div>
