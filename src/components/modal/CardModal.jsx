@@ -24,6 +24,7 @@ function CardModal({ projects }) {
 
     return (
         <>
+            <h2>Projects</h2>
             <div className="card-style" id="project">
                 {projects.map(project => (
                     <div key={project.id} className="card" onClick={() => openModal(project.id)} >
