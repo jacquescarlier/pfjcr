@@ -1,26 +1,49 @@
-import { Link } from "react-router-dom"
-
+import { Modal } from 'react-responsive-modal';
+import Curiculum from "../../pages/CvPdf";
+import { useState, useRef } from "react";
+import BackLinks from "../backLinks/BackLinks";
 function Footer() {
- 
+
+  const [modalOpen, setModalOpen] = useState(false);
+  const modalRef = useRef(null);
+
+  const openModal = (id) => {
+    setModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalOpen(false);
+  };
+
   return (
-    <footer id="contact">
-     
-      <ul>
-      <Link
-        to= "/cv">
-        <li><img src="./images/logoCV.webp" alt="logo email" id="email" /></li>
-        </Link>
-        <li> <a href="https://github.com/jacquescarlier/" target="_blank" rel="noopener"> <img src="./images/github.webp" alt="logo github" /> </a> </li>
-        <li><a href="https://www.linkedin.com/in/jacques-carlier-9a39121bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener"> <img src="./images/linkedin.webp" alt="logo linkedin" /> </a></li>
-      </ul>
-      <span className="topLink"><a href="#top">TOP</a></span>
-      <ul className="backlinks">
-        <li><a className="tooltip" href="https://validator.w3.org/#validate_by_uri" target="_blank" rel="noopener">Validateur W3C <em>Contrôler votre site</em></a> </li>
-        <li><a className="tooltip" href="https://developer.mozilla.org/fr/" target="_blank" rel="noopener">MDN Doc<em>Documentation Mozilla</em></a> </li>
-        <li><a className="tooltip" href="https://fr.react.dev/" target="_blank" rel="noopener">React<em>Documentation React</em></a></li>
-        <li><a className="tooltip" href="https://www.google.com/" target="_blank" rel="noopener">Google<em>Moteur de recherche</em></a></li>
-      </ul>
-    </footer>
+    <>
+      <footer id="contact">
+        <ul>
+          <li> <a href="https://github.com/jacquescarlier/" target="_blank" rel="noopener"> <img src="./images/github.webp" alt="logo github" /> </a> </li>
+          <li><a href="https://www.linkedin.com/in/jacques-carlier-9a39121bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener"> <img src="./images/linkedin.webp" alt="logo linkedin" /> </a></li>
+          <li><a href="#" onClick={() => openModal()}><img src="./images/logoCV.webp" alt="logo email" id="email" /></a></li>
+        </ul>
+        <span className="topLink"><a href="#top">TOP</a></span>
+        <BackLinks />
+      </footer>
+      <Modal
+        open={modalOpen}
+        onClose={closeModal}
+        ref={modalRef}
+        center
+        classNames={{
+          overlayAnimationIn: 'customEnterOverlayAnimation',
+          overlayAnimationOut: 'customLeaveOverlayAnimation',
+          modalAnimationIn: 'customEnterModalAnimation',
+          modalAnimationOut: 'customLeaveModalAnimation',
+        }}
+        animationDuration={800}
+      >
+        <div className="modalContainer">
+          <Curiculum />
+        </div>
+      </Modal>
+    </>
   );
 }
 export default Footer;
