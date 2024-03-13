@@ -37,7 +37,7 @@ function Footer() {
           modalAnimationIn: 'customEnterModalAnimation',
           modalAnimationOut: 'customLeaveModalAnimation',
         }}
-        animationDuration={800}
+        animationDuration={1000}
       >
         <div className="modalContainer">
           <Curiculum />

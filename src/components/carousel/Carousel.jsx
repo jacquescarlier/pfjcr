@@ -1,7 +1,6 @@
 import React, { useState } from "react"
-import ArrowRight from "../../pictures/logo/flechedroite.png"
-import ArrowLeft from "../../pictures/logo/flechegauche.png"
-
+import ArrowRight from "../../pictures/logo/red_arrow_right1.png"
+import ArrowLeft from "../../pictures/logo/red_arrow_left1.png"
 const Carousel = ({ pictures, title, alt }) => {
 
     const pictureLength = pictures.length;

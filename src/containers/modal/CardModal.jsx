@@ -45,8 +45,9 @@ function CardModal({ projects }) {
                     center
                     classNames={{
                         overlayAnimationIn: 'customEnterOverlayAnimation',
-                        overlayAnimationOut: 'customLeaveOverlayAnimation',
+                        overlayAnimationOut: 'customLeaveOverlayAnimation', 
                         modalAnimationIn: 'customEnterModalAnimation',
+                        modalAnimationIn : 'customEnterModalRotate',
                         modalAnimationOut: 'customLeaveModalAnimation',
                     }}
                     animationDuration={800}
