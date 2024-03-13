@@ -29,6 +29,7 @@ function CardModal({ projects }) {
                 {projects.map(project => (
                     <div key={project.id} className="card" onClick={() => openModal(project.id)} >
                         <img
+                            fetchpriority="high" as="image"
                             src={project.cover}
                             alt={project.alt}
                             style={{ cursor: 'pointer' }}
@@ -44,9 +45,9 @@ function CardModal({ projects }) {
                     center
                     classNames={{
                         overlayAnimationIn: 'customEnterOverlayAnimation',
-                        overlayAnimationOut: 'customLeaveOverlayAnimation', 
+                        overlayAnimationOut: 'customLeaveOverlayAnimation',
                         modalAnimationIn: 'customEnterModalAnimation',
-                        modalAnimationIn : 'customEnterModalRotate',
+                        modalAnimationIn: 'customEnterModalRotate',
                         modalAnimationOut: 'customLeaveModalAnimation',
                     }}
                     animationDuration={800}
