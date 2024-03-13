@@ -39,7 +39,7 @@ function Footer() {
         }}
         animationDuration={1000}
       >
-        <div className="modalContainer">
+        <div>
           <Curiculum />
         </div>
       </Modal>

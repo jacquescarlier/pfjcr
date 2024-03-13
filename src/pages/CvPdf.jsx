@@ -9,7 +9,7 @@ const Curiculum = () => {
       };
     window.scrollTo(0, 0)
     return (
-        <div className=' modalContainer'>
+        <div>
             <button className='imprimerPdf' onClick={handlePrint}>Imprimer</button>
             <div className='retour'>
                 <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
