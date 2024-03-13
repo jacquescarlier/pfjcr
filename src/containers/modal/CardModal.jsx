@@ -29,7 +29,6 @@ function CardModal({ projects }) {
                 {projects.map(project => (
                     <div key={project.id} className="card" onClick={() => openModal(project.id)} >
                         <img
-                            loading="lazy"
                             src={project.cover}
                             alt={project.alt}
                             style={{ cursor: 'pointer' }}
