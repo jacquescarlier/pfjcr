@@ -5,7 +5,12 @@ body {
   padding: 0 0px;
   margin: 0 auto;
   max-width: 1900px;
- 
+  width: 100%;
+  @include phone {
+    padding: 0;
+    margin: 0px;
+    width:  100vw;
+  }
   #root {
     width: 100vw;
     display: flex;
@@ -13,7 +18,11 @@ body {
     justify-content: center;
     margin: 0;
     padding: 0;
-
+    /*overflow: hidden;*/
+    @include phone {
+      width: 100%;
+     /*overflow: auto;*/
+    }
     .container-general {
       width: 100%;
       margin: 0;
@@ -32,9 +41,10 @@ body {
 
       @include phone {
         padding: 0.5em 0em;
+        box-sizing: content-box;
       }
     }
-    
+
     h2 {
       font-size: 2em;
       text-align: center;

@@ -1,5 +1,7 @@
 .aboutTitle {
-    @include inverseTranslateTitle;
+  width: 85%;
+  margin: 0 auto;
+  @include inverseTranslateTitle;
 }
 
 .aboutSection {
@@ -11,15 +13,16 @@
   margin: -10px auto 60px auto;
   border-radius: 10px;
   font-family: $font-main;
-    font-size: 1.5em;
-    font-weight: 600;
-  
-@include tab {
+  font-size: 1.5em;
+  font-weight: 600;
+
+  @include tab {
     width: 95%;
-}
+  }
 
   @include phone {
     width: 90%;
     font-size: 0.8em;
+    padding: 15px 0.2em 0.5em 0.2em;
   }
 }

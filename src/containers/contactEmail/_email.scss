@@ -1,3 +1,8 @@
+.contactForm {
+  @include phone {
+    width: 90%;
+    margin: 0 auto;
+  }
 form {
   max-width: 800px;
   text-align: center;
@@ -5,6 +10,11 @@ form {
   padding: 0.6em 1em;
   border: 2px $font2-color solid;
   border-radius: 1em;
+
+  @include phone {
+    width: 350px;
+    padding: 0.6em 0.2em;
+  }
 }
 input,
 textarea {
@@ -14,7 +24,7 @@ textarea {
   outline: 0;
   padding: 1em;
   border-radius: 8px;
-  display: block;
+  display: flex;
   width: 100%;
   margin-top: 1em;
   font-family: "Merriweather", sans-serif;
@@ -53,6 +63,10 @@ textarea {
     margin-bottom: 0;
   }
 }
+.cf {
+  width: 100%;
+  margin: 5px auto;
+}
 .cf:before,
 .cf:after {
   content: " ";
@@ -60,4 +74,5 @@ textarea {
 }
 .cf:after {
   clear: both;
+}
 }

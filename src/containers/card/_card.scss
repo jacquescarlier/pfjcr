@@ -18,8 +18,13 @@
   @include tab {
     gap: 20px;
     padding: 20px 2.5%;
+    margin: 0 auto;
   }
-
+@include phone {
+  padding: 0;
+  gap: 15px;
+  width: 95%;
+}
   .card {
     width: 45%;
     height: 340px;
@@ -34,7 +39,7 @@
 
     @include tab {
       height: 265px;
-      width: 100%;
+      width: 90%;
     }
 
     &:hover {
