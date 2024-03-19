@@ -3,7 +3,7 @@
     id: 1,
     title: "Expérience",
     content: `Après plus de 30 années dans l'industrie en tant que technicien de production, de recherche et développement, qui m'ont permis d’acquérir des compétences telles que l’organisation, l’écoute et l'apprentissage en continu de nouvelle technologie.
-    J’ai profité d'un concours de circonstance pour effectuer une reconversion professionnelle dans le développement Web, domaine qui m’intéressait depuis de nombreuses années. `,
+    J’ai profité d'un concours de circonstance pour effectuer une reconversion professionnelle dans le développement Web, domaine qui m’intéressait depuis de nombreuses années. Je peux enfin m'orienter vers un métier qui touche à mes intérêts personnels `,
   },
 
 ];
@@ -43,6 +43,11 @@ export const imgLangages = [
     id: 107,
     alt: "logo Seo",
     img: "./langages/023-seo.webp"
+  },
+  {
+	id: 108,
+	alt: "logo Jest",
+	img: "./langages/jest-logo.webp"
   }
 ]
 export const projects = [
@@ -57,7 +62,7 @@ export const projects = [
 			"../ohmyfood/omf2.webp",
 			"../ohmyfood/omf3.webp"
 		],
-		"description": "Améliorez l'interface d'un site mobile avec des animations",
+		"description": "Améliorez l'interface d'un site mobile avec des animations, en utilisant SASS",
 		"project": ["https://jacquescarlier.github.io/oh_my_food_margepb/"],
 		"logos": [
 			"../langages/020-html-5.webp",
@@ -125,6 +130,36 @@ export const projects = [
 		]
 	},
 	{
+		"id": "c67ab4422",
+		"title": "77events",
+		"cover": "./724events/77events_cover.webp",
+		"alt": "image du site de l'application 77 events",
+		"pictures": [
+			"../724events/77events1.webp",
+			"../724events/77events9.webp",
+			"../724events/77events2.webp",
+			"../724events/77events3.webp",
+			"../724events/77events4.webp",
+			"../724events/77events5.webp",
+			"../724events/77events6.webp",
+			"../724events/77events7.webp",
+			"../724events/77events10.webp"
+		],
+		"description": "Debuggez le site d'une agence d'événementiel, en utilsant jest et React devtools components",
+		"logos": [
+			"../langages/react-logopf.webp",
+			"../langages/jest-logo.webp"
+		],
+		"learning": [
+			"React",
+			"jest",
+			"devTools component"
+		],
+		"tags": [
+			["https://github.com/jacquescarlier/ab11"]
+		]
+	} /*,
+	{
 		"id": "c67ab4444",
 		"title": "Argent Bank",
 		"cover": "./argentbank/argentbankcover.webp",
@@ -151,6 +186,5 @@ export const projects = [
 		"tags": [
 			["https://github.com/jacquescarlier/ab11"]
 		]
-	}
-
+	}*/
 ]
