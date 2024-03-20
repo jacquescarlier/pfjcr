@@ -1,6 +1,9 @@
-h2{
+.cardProjectTitle{
   width: 85%;
   margin: 0  auto;
+  &:hover {
+    @include textRotation;
+  }
 }
 .modalContainer {
   padding: 1em;

@@ -22,6 +22,7 @@
 }
 @mixin inverseTranslateTitle {
   animation: inverseTranslateTitle 1s cubic-bezier(1.0,-0.12,.13,1.0) forwards;
+
 }
 @keyframes inverseTranslateTitle {
   0% {
@@ -30,6 +31,18 @@
   100% {
     transform: translateX(0%);
   }
+}
+
+@mixin textRotation {
+  animation: textRotation 1s linear 
+}
+@keyframes textRotation {
+0%{
+  transform: rotateX(360deg);
+}
+100%{
+  transform: rotateX(0deg);
+}
 }
 /*   dropdown animation */
 @mixin descending {

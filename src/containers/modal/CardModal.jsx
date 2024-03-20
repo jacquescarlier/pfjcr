@@ -24,7 +24,7 @@ function CardModal({ projects }) {
 /* srcSet= {`${project.srcsetlow} 576w, $ {project.cover} 1024w`} */
     return (
         <>
-            <h2>Projects</h2>
+            <h2 className="cardProjectTitle">Projects</h2>
             <div className="card-style" id="project">
                 {projects.map(project => (
                     <div key={project.id} className="card" onClick={() => openModal(project.id)} aria-label={project.alt}>
