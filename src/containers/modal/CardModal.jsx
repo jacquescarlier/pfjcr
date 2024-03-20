@@ -29,7 +29,7 @@ function CardModal({ projects }) {
                 {projects.map(project => (
                     <div key={project.id} className="card" onClick={() => openModal(project.id)} aria-label={project.alt}>
                         <img
-                            loading="lazy"
+                            fetchpriority="high" as="image" 
                             src={project.cover}
                             srcSet= {`${project.srcsetlow} 576w, $ {project.cover} 1024w`}
                             size="(max-width: 576px) 576px, 1024px"
