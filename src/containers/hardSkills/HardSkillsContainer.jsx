@@ -17,7 +17,7 @@ export default function HardSkillsContainer() {
         <span className="letter11">S</span>
       </h2>
       <div className="content">
-        <div className="imgProject" aria-label=" langage de programmation">
+        <div className="imgProject" aria-label="langage de programmation">
           {imgLangages.map(function (langage) {
             return (
               <img key={langage.id} src={langage.img} alt={langage.alt} aria-label={langage.alt} />
