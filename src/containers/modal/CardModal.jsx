@@ -21,7 +21,7 @@ function CardModal({ projects }) {
     const closeModal = () => {
         setModalOpen(false);
     };
-/*fetchpriority="high" as="image" */
+/* srcSet= {`${project.srcsetlow} 576w, $ {project.cover} 1024w`} */
     return (
         <>
             <h2>Projects</h2>
@@ -31,8 +31,6 @@ function CardModal({ projects }) {
                         <img
                             fetchpriority="high" as="image" 
                             src={project.cover}
-                            srcSet= {`${project.srcsetlow} 576w, $ {project.cover} 1024w`}
-                            size="(max-width: 576px) 576px, 1024px"
                             alt={project.alt}
                             style={{ cursor: 'pointer' }}
                         />
