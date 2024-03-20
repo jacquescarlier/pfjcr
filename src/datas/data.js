@@ -145,7 +145,7 @@ export const projects = [
 			"../724events/77events7.webp",
 			"../724events/77events10.webp"
 		],
-		"description": "Debuggez le site d'une agence d'événementiel, en utilsant jest et React devtools components",
+		"description": "Debuggez le site d'une agence d'événementiel, en utilisant jest et React devtools components",
 		"logos": [
 			"../langages/react-logopf.webp",
 			"../langages/jest-logo.webp"

@@ -27,7 +27,7 @@ function CardModal({ projects }) {
             <h2>Projects</h2>
             <div className="card-style" id="project">
                 {projects.map(project => (
-                    <div key={project.id} className="card" onClick={() => openModal(project.id)} >
+                    <div key={project.id} className="card" onClick={() => openModal(project.id)} aria-label={project.alt}>
                         <img
                             fetchpriority="high" as="image"
                             src={project.cover}
