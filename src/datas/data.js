@@ -55,6 +55,7 @@ export const projects = [
 		"id": "c67ab888",
 		"title": "Ohmyfood",
 		"cover": "./ohmyfood/omf1.webp",
+		"srcsetlow": "./ohmyfood/omf1low.webp",
 		"alt": "image du site de restauration Ohmyfood",
 		"pictures": [
 			"../ohmyfood/omf1.webp",
@@ -79,6 +80,7 @@ export const projects = [
 		"id": "c67ab8a7",
 		"title": "Portfolio Sophie Bluel",
 		"cover": "./sophie-bluel/sb11.webp",
+		"srcsetlow": "../sophie-bluel/sb11.webp",
 		"alt": "image du site du portfolio de Sophie Bluel",
 		"pictures": [
 			"../sophie-bluel/sophie11.webp",
@@ -108,6 +110,7 @@ export const projects = [
 		"title": "Kasa",
 		"alt": "Image du site de location immobilière Kasa",
 		"cover": "./kasa/kasa1.webp",
+		"srcsetlow": "./kasa/kasa1.webp",
 		"pictures": [
 			"../kasa/kasa1.webp",
 			"../kasa/kasaapropos.webp",
@@ -133,6 +136,7 @@ export const projects = [
 		"id": "c67ab4422",
 		"title": "77events",
 		"cover": "./724events/77events_cover.webp",
+		"srcsetlow": "./724events/77events_cover.webp",
 		"alt": "image du site de l'application 77 events",
 		"pictures": [
 			"../724events/77events1.webp",

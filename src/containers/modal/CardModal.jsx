@@ -31,6 +31,8 @@ function CardModal({ projects }) {
                         <img
                             fetchpriority="high" as="image"
                             src={project.cover}
+                            srcSet= {`${project.srcsetlow} 576w, $ {project.cover} 1024w`}
+                            size="(max-width: 576px) 576px, 1024px"
                             alt={project.alt}
                             style={{ cursor: 'pointer' }}
                         />
