@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser'
+import InputForm from '../../components/input/InputForm';
 
 export default function Email() {
 
@@ -23,13 +24,32 @@ export default function Email() {
             <h2>Contact Form</h2>
             <form className='cf' ref={form} onSubmit={sendEmail}>
                 <div className='half left cf'>
-                    <input id="name" type='text' placeholder='Name' name='user_name' aria-labelledby="name" autoComplete='off' required />
-                    <input type='email' placeholder='Email address' name='user_email' aria-labelledby="email" required />
+                    <InputForm
+                        name="user_name"
+                        type="text"
+                        inputId="name"
+                        placeHolder="Name"
+                        autocomplete="off"
+                        required="required"
+                        ariaLabel="name"
+                    />
+                    <InputForm
+                        name="user_email"
+                        type="email"
+                        placeHolder="Email address"
+                        required="required"
+                        ariaLabel="email"
+                    />
                 </div>
                 <div className='half right cf'>
                     <textarea id="message" name='message' type='text' placeholder='Message' aria-labelledby="message" required ></textarea>
                 </div>
-                <input type='submit' value='Submit' id='input-submit' />
+                <InputForm
+                    name="input-submit"
+                    type="submit"
+                    value="Submit"
+                    inputId='input-submit'
+                />
             </form>
         </div>);
 
