@@ -1,6 +1,6 @@
 .contactForm {
   @include phone {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
   }
 form {
@@ -56,7 +56,7 @@ textarea {
 .left {
   margin-right: 2%;
 }
-@media (max-width: 480px) {
+@include phone {
   .half {
     width: 100%;
     float: none;
@@ -64,8 +64,10 @@ textarea {
   }
 }
 .cf {
-  width: 100%;
+  @include phone {
+  width: 90%;
   margin: 5px auto;
+}
 }
 .cf:before,
 .cf:after {
