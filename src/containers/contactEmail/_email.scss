@@ -12,10 +12,10 @@ form {
   border-radius: 1em;
 
   @include phone {
-    width: 350px;
     padding: 0.6em 0.2em;
   }
 }
+
 input,
 textarea {
   border: 0;
@@ -29,6 +29,12 @@ textarea {
   margin-top: 1em;
   font-family: "Merriweather", sans-serif;
   resize: none;
+}
+input#input-submit {
+  @include phone {
+    width: 90%;
+    margin: 0.5em auto;
+  }
 }
 #input-submit {
   color: $bg-color;
