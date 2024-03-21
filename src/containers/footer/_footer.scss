@@ -30,7 +30,16 @@ footer {
     width: 86.8%;
   }
 
-  ul {
+  .socialMediaLinks {
+    display: flex;
+    gap: 57px;
+    list-style: none;
+    margin-top: 2em;
+  
+    @include phone {
+      gap: 10px;
+    }
+
     li {
       a {
         padding: 0;
