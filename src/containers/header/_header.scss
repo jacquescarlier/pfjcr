@@ -13,7 +13,6 @@
     height: 57px;
     margin-bottom: 1em;
     margin: 0.2em 0.5em 1em;
-    /*box-sizing: border-box;*/
   }
 
   .logoRotate {
@@ -25,6 +24,9 @@
     padding: 10px;
     border-radius: 50%;
     border: 2px solid $font-color;
+    &:hover{
+      transform: scale(3);
+    }
   }
 
   .navigation {

@@ -38,10 +38,10 @@
 }
 @keyframes textRotation {
 0%{
-  transform: rotateX(360deg);
+  transform: rotateX(0deg);
 }
 100%{
-  transform: rotateX(0deg);
+  transform: rotateX(360deg);
 }
 }
 /*   dropdown animation */
@@ -169,8 +169,12 @@
 }
 
 @keyframes logoRotate {
-    from {transform: rotate(0deg);}
-    to {transform: rotate(359deg);}
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
 }
 /* flip text */
 @mixin flip2 {

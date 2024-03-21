@@ -7,7 +7,16 @@ ul {
     gap: 10px;
   }
 
-  li a {
+  li{ 
+    &:hover{
+      transform: scale(1.5);
+
+      @include phone {
+        transform: scale(1.3);
+      }
+    }
+
+    a {
     color: $font2-color;
     font-size: 1.5em;
     font-family: $font-main;
@@ -20,5 +29,4 @@ ul {
       font-size: 1.1em;
     }
   }
-}
-
+}}
