@@ -54,7 +54,7 @@ export const projects = [
 	{
 		"id": "c67ab888",
 		"title": "Ohmyfood",
-		"cover": "./ohmyfood/omf1.webp",
+		"cover": "./ohmyfood/omf1-cover.webp",
 		"srcsetlow": "./ohmyfood/omf1low.webp",
 		"alt": "image du site de restauration Ohmyfood",
 		"pictures": [
