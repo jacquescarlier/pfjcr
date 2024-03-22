@@ -23,7 +23,7 @@ function Footer() {
           <li><a href="https://www.linkedin.com/in/jacques-carlier-9a39121bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener"> <img src="./images/linkedin.webp" alt="logo linkedin" aria-label="liens vers mon Linkedin" /> </a></li>
           <li><a href="#" onClick={() => openModal()}><img src="./images/logoCV.webp" alt="logo email" id="email"  aria-label="liens vers curriculum-vitae"/></a></li>
         </ul>
-        <span className="button"><a href="#top">TOP</a></span>
+        <span className="button"><a href="#top">Back To Top</a></span>
        {  /* <span className="topLink"><a href="#top">TOP</a></span> */ }
         
         <BackLinks />
