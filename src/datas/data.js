@@ -79,7 +79,7 @@ export const projects = [
 	{
 		"id": "c67ab8a7",
 		"title": "Portfolio Sophie Bluel",
-		"cover": "./sophie-bluel/sb11.webp",
+		"cover": "./sophie-bluel/sb11-cover.webp",
 		"srcsetlow": "../sophie-bluel/sb11.webp",
 		"alt": "image du site du portfolio de Sophie Bluel",
 		"pictures": [
