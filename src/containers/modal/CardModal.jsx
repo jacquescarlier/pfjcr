@@ -21,7 +21,9 @@ function CardModal({ projects }) {
     const closeModal = () => {
         setModalOpen(false);
     };
-/* srcSet= {`${project.srcsetlow} 576w, $ {project.cover} 1024w`} */
+/* srcSet= {`${project.srcsetlow} 576w, $ {project.cover} 1024w`}
+ fetchpriority="high" as="image" 
+*/
     return (
         <>
             <h2 className="cardProjectTitle">Projects</h2>
@@ -29,7 +31,6 @@ function CardModal({ projects }) {
                 {projects.map(project => (
                     <div key={project.id} className="card" onClick={() => openModal(project.id)} aria-label={project.alt}>
                         <img
-                           
                             src={project.cover}
                             alt={project.alt}
                             style={{ cursor: 'pointer' }}

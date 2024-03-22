@@ -50,7 +50,7 @@
         margin: 0.5em;
         transition: transform 0.3s;
         &:hover {
-          transform: scale(3);
+          transform: scale(2);
         }
         @include phone {
           height: 1.3em;
