@@ -109,7 +109,7 @@ export const projects = [
 		"id": "c67ab899",
 		"title": "Kasa",
 		"alt": "Image du site de location immobilière Kasa",
-		"cover": "./kasa/kasa1.webp",
+		"cover": "./kasa/kasa1-cover.webp",
 		"srcsetlow": "./kasa/kasa1.webp",
 		"pictures": [
 			"../kasa/kasa1.webp",
