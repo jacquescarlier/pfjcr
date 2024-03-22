@@ -29,7 +29,7 @@ function CardModal({ projects }) {
                 {projects.map(project => (
                     <div key={project.id} className="card" onClick={() => openModal(project.id)} aria-label={project.alt}>
                         <img
-                            fetchpriority="high" as="image" 
+                           
                             src={project.cover}
                             alt={project.alt}
                             style={{ cursor: 'pointer' }}
