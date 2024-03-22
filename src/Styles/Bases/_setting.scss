@@ -9,7 +9,7 @@ body {
   @include phone {
     padding: 0;
     margin: 0px;
-    width:  100vw;
+    width: 100vw;
   }
   #root {
     width: 100vw;
@@ -18,18 +18,18 @@ body {
     justify-content: center;
     margin: 0;
     padding: 0;
-    /*overflow: hidden;*/
+    
     @include phone {
       width: 100%;
-     /*overflow: auto;*/
     }
     .container-general {
       width: 100%;
       margin: 0;
       padding: 0;
-      padding: 10px 6.95% 0px 6.95%;
+      padding: 10px 6.95% 20px 6.95%;
       display: grid;
       grid-template-rows: auto 1fr auto;
+      margin-bottom: 20px;
 
       @include desktop-large {
         padding: 10px 6.5% 0px 6.5%;
