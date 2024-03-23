@@ -13,7 +13,7 @@ import CardModal from "../containers/modal/CardModal";
 const Home = () => {
 
   return (
-    <>
+    <div className="parallax">
       <div className="container-general">
         <Header />
         <Banner
@@ -29,7 +29,7 @@ const Home = () => {
         <Email />
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 
