@@ -1,5 +1,5 @@
 body {
-  background: $gradientClair;
+  background: #1c3548;
   display: flex;
   justify-content: center;
   padding: 0 0px;
@@ -46,13 +46,10 @@ body {
     }
 
     .parallax {
-      /* Votre image */
-      /*  background-image: url("https://www.codeur.com/tuto/wp-content/uploads/2022/02/p1.jpg");*/
       background-image: url("../../../public/diego-unsplash.webp");
       /* Une hauteur variable */
       height: auto;
 
-      /* L'effet de parallax */
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
