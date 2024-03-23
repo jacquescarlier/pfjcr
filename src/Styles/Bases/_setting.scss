@@ -45,6 +45,20 @@ body {
       }
     }
 
+    .parallax {
+      /* Votre image */
+      /*background-image: url("https://www.codeur.com/tuto/wp-content/uploads/2022/02/p1.jpg");*/
+  background-image: url("../../pictures/diego-ph-5LOhydOtTKU-unsplash.jpg");
+      /* Une hauteur variable */
+      height: 100vh;
+    
+      /* L'effet de parallax */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: auto;
+    }
+
     h2 {
       font-size: 2em;
       text-align: center;
