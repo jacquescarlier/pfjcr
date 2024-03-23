@@ -41,6 +41,10 @@
       border: solid $font-color 1px;
       border-radius: 0.5em;
       background-color: $font2-color;
+      filter: grayscale(1);
+      &:hover {
+        filter: grayscale(0);
+      }
       @include phone {
         width: 100%;
       }

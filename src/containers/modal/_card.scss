@@ -31,6 +31,7 @@
     border-radius: 20px;
     position: relative;
     border: solid $font-color 1px;
+    filter: grayscale(0.8);
 
     @include desktop {
       height: 280px;
@@ -43,6 +44,7 @@
     }
 
     &:hover {
+      filter: grayscale(0);
       transform: scale(1.1);
       @include shake;
     }

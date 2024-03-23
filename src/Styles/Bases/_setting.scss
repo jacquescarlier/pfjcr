@@ -46,14 +46,14 @@ body {
     }
 
     .parallax {
-      background-image: url("/diego-unsplash.webp");
+      background-image: url("/landscape-gray-grey.jpeg");
       /* Une hauteur variable */
-      height: auto;
+      height: 100%;
 
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
-      background-size: auto;
+      background-size: cover;
     }
 
     h2 {
