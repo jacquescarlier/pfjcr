@@ -20,7 +20,7 @@ export default function Email() {
     };
 
     return (
-        <div className="contactForm">
+        <div className="contactForm" id="contact">
             <h2>Contact Form</h2>
             <form className='cf' ref={form} onSubmit={sendEmail}>
                 <div className='half left cf'>
