@@ -116,5 +116,54 @@
       transition: all 250ms linear;
     }
   }
+  
+.carouselArrow {
+  width: 45px;
+  height: 36px;
+  position: absolute;
+  bottom: 50%;
+  transform: translatey(50%);
+  z-index: 3;
+  cursor: pointer;
+
+  @include phone {
+    height: 30px;
+    width: 24px;
+  }
+}
+
+.carouselArrowRight {
+  right: 1%;
+  border-radius: 50%;
+  padding: 6px 3px 4px 5px;
+
+  @include phone {
+    padding: 6px 3px 4px 5px;
+  }
+}
+
+.carouselArrowLeft {
+  left: 1%;
+  border-radius: 50%;
+  padding: 6px 3px 4px 5px;
+
+  @include phone {
+    padding: 6px 5px 4px 3px;
+  }
+}
+.carouselCounter {
+  position: absolute;
+  bottom: -1.5em;
+  right: 50%;
+  color: $bg-color;
+  font-family: "Grandstander";
+  font-size: 18px;
+  font-weight: bolder;
+  letter-spacing: -2px;
+
+  @include phone {
+    display: none;
+  }
+}
 }
 .react-responsive-modal-modal { width: 90% }
