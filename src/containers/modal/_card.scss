@@ -95,6 +95,10 @@
   border-radius: 20px;
   background: #dcdcdc;
   border: 3px solid $jaune-dor;
+  @include phone {
+    padding: 1em 0;
+    
+  }
 
   .closeModal {
     padding: 5px 10px;
