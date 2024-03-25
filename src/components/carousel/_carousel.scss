@@ -23,7 +23,7 @@
 
   @include phone {
     margin: 20px 0 0.6em 0;
-    object-fit: contain;
+    object-fit: cover;
     object-position: top;
     object-position: left;
     height: $carouselHs;
