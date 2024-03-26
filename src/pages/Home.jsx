@@ -8,7 +8,7 @@ import smallPicture from "../pictures/banner_codeur-mobile.webp"
 import About from "../containers/about/About";
 import { projects } from '../datas/data';
 import Email from "../containers/contactEmail/Email";
-import CardModal from "../containers/modal/CardModal";
+import CardModal from "../containers/cardAndModal/CardModal";
 
 const Home = () => {
 
