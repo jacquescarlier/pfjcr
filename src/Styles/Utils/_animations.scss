@@ -1,11 +1,11 @@
 /*arrow rotation*/
 @mixin rotation0To180Deg {
-  transition: all 300ms ease-in-out;
+  transition:  300ms ease-in-out;
   transform: rotate(180deg);
 }
 
 @mixin rotation180To0Deg {
-  transition: all 300ms ease-in-out;
+  transition:  300ms ease-in-out;
   transform: rotate(0deg);
 }
 /*title translate*/

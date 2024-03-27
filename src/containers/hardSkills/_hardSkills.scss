@@ -40,9 +40,12 @@
       border: solid $font-color 1px;
       border-radius: 0.5em;
       background-color: $font2-color;
+      opacity: 0.5;
+      transition: opacity 0.5s ease;
       filter: grayscale(1);
       &:hover {
         filter: grayscale(0);
+        opacity: 1;
       }
       @include phone {
         width: 100%;
@@ -51,7 +54,7 @@
         height: 3em;
         width: 3em;
         margin: 0.5em;
-        transition: transform 0.3s;
+        transition:  0.3s;
         &:hover {
           transform: scale(1.6);
         }

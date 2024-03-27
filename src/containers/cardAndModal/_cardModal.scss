@@ -1,9 +1,9 @@
 * {
   margin: 0;
 }
-.cardProjectTitle{
+.cardProjectTitle {
   width: 85%;
-  margin: 0  auto;
+  margin: 0 auto;
   :hover {
     @include textRotation;
   }
@@ -26,19 +26,20 @@
     padding: 20px 2.5%;
     margin: 0 auto;
   }
-@include phone {
-  padding: 0;
-  gap: 15px;
-  width: 95%;
-}
+  @include phone {
+    padding: 0;
+    gap: 15px;
+    width: 95%;
+  }
   .card {
     width: 45%;
     height: 340px;
     border-radius: 20px;
     position: relative;
     border: solid $font-color 1px;
-    filter: grayscale(0.8);
-
+    filter: grayscale(1);
+    opacity: 0.5;
+    transition: transform 0.5s ease, opacity 0.5s ease;
     @include desktop {
       height: 280px;
       width: 45%;
@@ -52,7 +53,7 @@
     &:hover {
       filter: grayscale(0);
       transform: scale(1.1);
-      @include shake;
+      opacity: 1;
     }
 
     img {
@@ -87,7 +88,6 @@
       }
     }
   }
-  
 }
 .modalContainer {
   padding: 1em;
@@ -97,77 +97,84 @@
   border: 3px solid $jaune-dor;
   @include phone {
     padding: 1em 0;
-    
   }
 
   .closeModal {
     padding: 5px 10px;
     border-radius: 1em;
     cursor: pointer;
-    background: lighten($font-color, 3%);  
+    background: lighten($font-color, 3%);
     border: 1px solid darken($font-color, 4%);
-    box-shadow: 0px 2px 0 darken($font-color, 5%), 2px 4px 6px darken($font-color, 2%);
+    box-shadow: 0px 2px 0 darken($font-color, 5%),
+      2px 4px 6px darken($font-color, 2%);
     font-weight: 900;
     letter-spacing: 1px;
-    transition: all 150ms linear;
+    transition: 150ms ease-out;
     &:hover {
       background: darken($font-color, 1.5%);
-      border: 1px solid rgba(#000, .05);
-      box-shadow: 1px 1px 2px rgba(#fff, .2);
-      color: lighten($font-color, 18%); 
+      border: 1px solid rgba(#000, 0.05);
+      box-shadow: 1px 1px 2px rgba(#fff, 0.2);
+      color: lighten($font-color, 18%);
       text-decoration: none;
       text-shadow: -1px -1px 0 darken($font-color, 9.5%);
-      transition: all 250ms linear;
+      transition: 250ms ease-out;
     }
   }
-  
-.carouselArrow {
-  width: 45px;
-  height: 36px;
-  position: absolute;
-  bottom: 50%;
-  transform: translatey(50%);
-  z-index: 3;
-  cursor: pointer;
-
-  @include phone {
-    height: 30px;
-    width: 24px;
+  .carousel img {
+    transition: transform 03s ease;
+    &:hover {
+      transform: scale(1.5);
+    }
   }
-}
+  .carouselArrow {
+    width: 45px;
+    height: 36px;
+    position: absolute;
+    bottom: 50%;
+    transform: translatey(50%);
+    z-index: 3;
+    cursor: pointer;
 
-.carouselArrowRight {
-  right: 1%;
-  border-radius: 50%;
-  padding: 6px 3px 4px 5px;
+    @include phone {
+      height: 30px;
+      width: 24px;
+    }
+  }
 
-  @include phone {
+  .carouselArrowRight {
+    right: 1%;
+    border-radius: 50%;
     padding: 6px 3px 4px 5px;
+
+    @include phone {
+      padding: 6px 3px 4px 5px;
+    }
+  }
+
+  .carouselArrowLeft {
+    left: 1%;
+    border-radius: 50%;
+    padding: 6px 3px 4px 5px;
+
+    @include phone {
+      padding: 6px 5px 4px 3px;
+    }
+  }
+  .carouselCounter {
+    position: absolute;
+    bottom: -1.5em;
+    right: 50%;
+    color: $bg-color;
+    font-family: "Grandstander";
+    font-size: 18px;
+    font-weight: bolder;
+    letter-spacing: -2px;
+
+    @include phone {
+      display: none;
+    }
   }
 }
-
-.carouselArrowLeft {
-  left: 1%;
-  border-radius: 50%;
-  padding: 6px 3px 4px 5px;
-
-  @include phone {
-    padding: 6px 5px 4px 3px;
-  }
+.react-responsive-modal-modal {
+  width: 90%;
 }
-.carouselCounter {
-  position: absolute;
-  bottom: -1.5em;
-  right: 50%;
-  color: $bg-color;
-  font-family: "Grandstander";
-  font-size: 18px;
-  font-weight: bolder;
-  letter-spacing: -2px;
-
-  @include phone {
-    display: none;
-  }
-}
-}
-.react-responsive-modal-modal { width: 90% }
