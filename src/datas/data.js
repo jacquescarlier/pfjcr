@@ -12,41 +12,49 @@ export const imgLangages = [
   {
     id: 101,
     alt: "logo Html",
+	tips: "HTML",
     img: "./langages/020-html-5.webp"
   },
   {
     id: 102,
     alt: "logo Css",
+	tips: "CSS",
     img: "./langages/019-css-3.webp"
   },
   {
     id: 103,
     alt: "logo Sass",
+	tips: "SASS",
     img: "./langages/Sass1.webp"
   },
   {
     id: 104,
-    alt: "logo Java script",
+    alt: "logo Javascript",
+	tips:"JavaScript",
     img: "./langages/Javascript1.webp"
   },
   {
     id: 105,
     alt: "logo React",
+	tips:"REACT",
     img: "./langages/react-logopf.webp"
   },
   {
     id: 106,
     alt: "logo Redux",
+	tips: "REDUX",
     img: "./langages/redux.webp"
   },
   {
     id: 107,
     alt: "logo Seo",
+	tips:"SEO",
     img: "./langages/023-seo.webp"
   },
   {
 	id: 108,
 	alt: "logo Jest",
+	tips:"JEST",
 	img: "./langages/jest-logo.webp"
   }
 ]

@@ -61,11 +61,11 @@
           transform: scale(1.6);
         }
         @include phone {
-          height: 1.3em;
-          width: 1.3em;
+          height: 1.2em;
+          width: 1.2em;
           
           &:hover{
-            transform: scale(5);
+            transform: scale(3);
             z-index: 50;
           }
         }
