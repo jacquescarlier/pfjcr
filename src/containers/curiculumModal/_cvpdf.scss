@@ -20,7 +20,6 @@
   height: 900px;
 
   @include phone {
-    scale: 1;
     margin: 0;
     padding: 0;
     width: auto;
