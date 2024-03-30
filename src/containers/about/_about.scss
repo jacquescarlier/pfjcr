@@ -1,14 +1,12 @@
 .aboutTitle {
   width: 85%;
   margin: 0 auto;
- /* @include inverseTranslateTitle;*/
 }
 
 .aboutSection {
   width: 85%;
   font-size: 1.2em;
- /* background-color: $font2-color;*/
- background-color: $fond;
+  background-color: $fond;
   color: $bg-color;
   padding: 15px 0.5em 0.5em 0.5em;
   margin: -10px auto 60px auto;
@@ -16,6 +14,9 @@
   font-family: $font-main;
   font-size: 1.5em;
   font-weight: 600;
+  &:hover {
+    filter: invert(1);
+  }
 
   @include tab {
     width: 95%;
