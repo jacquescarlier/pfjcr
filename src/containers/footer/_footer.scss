@@ -34,7 +34,7 @@ footer {
     display: flex;
     gap: 57px;
     list-style: none;
-    padding: 20em auto;
+    /*padding: 20em auto;*/
 
     @include phone {
       gap: 10px;
