@@ -24,8 +24,6 @@ function Footer() {
           <li><a href="#" onClick={() => openModal()}><img src="./images/logoCV.webp" alt="logo email" id="email"  aria-label="liens vers curriculum-vitae"/></a></li>
         </ul>
         <span className="button"><a href="#top">Back To Top</a></span>
-       {  /* <span className="topLink"><a href="#top">TOP</a></span> */ }
-        
         <BackLinks />
       </footer>
       <Modal
