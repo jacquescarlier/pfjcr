@@ -65,8 +65,9 @@ body {
       letter-spacing: 0.6em;
       border-radius: 10px;
       padding: 0.5em 1.5em;
+      
       &:hover {
-        color: $jaune-dor;
+        color: $font-color;
         @include textRotation;
       }
     }

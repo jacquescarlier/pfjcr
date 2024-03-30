@@ -7,7 +7,6 @@
   box-sizing: border-box;
   position: relative;
   margin: 0 auto;
-  
 @include phone {
   width: 90%;
 }
@@ -27,6 +26,7 @@
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+    
     @include phone {
       width: 100%;
     }
