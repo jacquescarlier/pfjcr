@@ -5,7 +5,7 @@
   position: relative;
   margin-top: 1em;
   margin-bottom: 38px;
-  
+
   @include phone {
     height: 5em;
     width: 90%;
@@ -41,6 +41,9 @@
     @include flex-justify-items-center;
     gap: 5px;
     @include fadein;
+    &:hover span {
+      color: $font-color;
+    }
 
     @include tab {
       padding: 0;
@@ -58,8 +61,8 @@
 
     span {
       font-size: 3.2em;
-     /* color: $font-color;*/
-     color: $h2;
+      /* color: $font-color;*/
+      color: $h2;
       font-family: $font-secondary;
       font-weight: 500;
 
