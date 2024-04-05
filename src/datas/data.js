@@ -40,12 +40,6 @@ export const imgLangages = [
     img: "./langages/react-logopf.webp"
   },
   {
-    id: 106,
-    alt: "logo Redux",
-	tips: "REDUX",
-    img: "./langages/redux.webp"
-  },
-  {
     id: 107,
     alt: "logo Seo",
 	tips:"SEO",
