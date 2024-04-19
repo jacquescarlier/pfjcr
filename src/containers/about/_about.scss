@@ -6,8 +6,8 @@
 .aboutSection {
   width: 85%;
   font-size: 1.2em;
-  background-color: $fond;
-  color: $bg-color;
+  background-color: transparent;
+  color: $h2;
   padding: 15px 0.5em 0.5em 0.5em;
   margin: -10px auto 60px auto;
   border-radius: 10px;
@@ -15,7 +15,7 @@
   font-size: 1.5em;
   font-weight: 600;
   &:hover {
-    filter: invert(1);
+    color: $font-color;
   }
 
   @include tab {
