@@ -152,6 +152,7 @@ export const projects = [
 			"../724events/77events10.webp"
 		],
 		"description": "Debuggez le site d'une agence d'événementiel, en utilisant jest et React devtools components",
+		"project": ["https://debugger-uneapplication.netlify.app/"],
 		"logos": [
 			"../langages/react-logopf.webp",
 			"../langages/jest-logo.webp"
